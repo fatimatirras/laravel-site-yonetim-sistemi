@@ -97,7 +97,7 @@
 
 
 @include('home._footer')
-<h1>a</h1>
+
 </body>
 </html>
 
