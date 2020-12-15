@@ -13,7 +13,7 @@
 
 @section('content')
 
-
+    içerik alan
 
 
 @endsection

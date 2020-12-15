@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="index Changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,15 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e6731e98-ec5d-48e4-92df-09b491e43683" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -165,7 +175,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -188,7 +198,9 @@
       <workItem from="1607766472942" duration="3529000" />
       <workItem from="1607784508529" duration="1236000" />
       <workItem from="1607870488033" duration="5443000" />
-      <workItem from="1607876005605" duration="658000" />
+      <workItem from="1607876005605" duration="4063000" />
+      <workItem from="1608041042040" duration="1238000" />
+      <workItem from="1608046499395" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -253,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607876659462</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="index Changed">
+      <created>1607876673798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607876673798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="index Changed">
+      <created>1607877950927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607877950927</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="312" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1607768066611" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1607875981810">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1607876689501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607875981810" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607876689501" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1607874449533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -308,14 +334,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607871394242" />
-    <state x="38" y="167" key="SettingsEditor" timestamp="1607876238406">
+    <state x="38" y="167" key="SettingsEditor" timestamp="1608046790149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="38" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607876238406" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1607876040897">
+    <state x="38" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790149" />
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1608046790541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607876040897" />
+    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1607877957313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607877957313" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607875856521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
