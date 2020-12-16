@@ -1,7 +1,8 @@
+<!-- Start slider -->
 <section id="slider">
     <div class="main-slider">
         <div class="single-slide">
-            <img src="{{ asset('assets') }}/images/slider-1.jpg" alt="img">
+            <img src="{{ asset('assets')}}/images/slider-1.jpg" alt="img">
             <div class="slide-content">
                 <div class="container">
                     <div class="row">
@@ -14,7 +15,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="slider-img wow fadeInUp">
-                                <img src="{{ asset('assets') }}/images/person1.png" alt="business man">
+                                <img src="{{ asset('assets')}}/images/person1.png" alt="business man">
                             </div>
                         </div>
                     </div>
@@ -22,7 +23,7 @@
             </div>
         </div>
         <div class="single-slide">
-            <img src="{{ asset('assets') }}/images/slider-3.jpg" alt="img">
+            <img src="{{ asset('assets')}}/images/slider-3.jpg" alt="img">
             <div class="slide-content">
                 <div class="container">
                     <div class="row">
@@ -35,7 +36,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="slider-img wow fadeInUp">
-                                <img src="{{ asset('assets') }}/images/person2.png" alt="business man">
+                                <img src="{{ asset('assets')}}/images/person2.png" alt="business man">
                             </div>
                         </div>
                     </div>
@@ -43,6 +44,5 @@
             </div>
         </div>
     </div>
-
 </section>
 <!-- End slider -->

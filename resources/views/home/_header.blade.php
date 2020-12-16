@@ -2,7 +2,7 @@
     <!-- header top search -->
     <div class="header-top">
         <div class="container">
-            <form action="">
+            <form action="#" method="post">
                 <div id="search">
                     <input type="text" placeholder="Type your search keyword here and hit Enter..." name="s" id="m_search" style="display: inline-block;">
                     <button type="submit">

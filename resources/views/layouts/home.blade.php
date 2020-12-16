@@ -54,13 +54,13 @@
     <div id="status">&nbsp;</div>
 </div>
 <!-- END PRELOADER -->
-
 <!-- SCROLL TOP BUTTON -->
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 <!-- END SCROLL TOP BUTTON -->
 
 
 @include('home._header')
+
 
 <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
     <div class="modal-dialog">
@@ -84,15 +84,7 @@
 
 
 @include('home._slider')
-@include('home._feature')
-@include('home._about')
-@include('home._counter')
-@include('home._service')
-@include('home._table')
-@include('home._Testimonial')
-@include('home._Clients')
-@include('home._latestNews')
-@include('home._subscribeUs')
+
 
 @section('content')
     içerik alan

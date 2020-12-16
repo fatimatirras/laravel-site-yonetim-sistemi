@@ -13,7 +13,15 @@
 
 @section('content')
 
-    içerik alan
+    @include('home._feature')
+    @include('home._about')
+    @include('home._counter')
+    @include('home._service')
+    @include('home._table')
+    @include('home._Testimonial')
+    @include('home._Clients')
+    @include('home._latestNews')
+    @include('home._subscribeUs')
 
 
 @endsection
