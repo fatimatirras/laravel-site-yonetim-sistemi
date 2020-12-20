@@ -1,48 +1,63 @@
-<!-- Start slider -->
-<section id="slider">
-    <div class="main-slider">
-        <div class="single-slide">
-            <img src="{{ asset('assets')}}/images/slider-1.jpg" alt="img">
-            <div class="slide-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="slide-article">
-                                <h1 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Creative Design & Best Feature</h1>
-                                <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                                <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">Read More</a>
+<section style="background: url('{{ asset('assets') }}/img/photogrid.jpg') center center repeat; background-size: cover;" class="bar background-white relative-positioned">
+    <div class="container">
+        <!-- Carousel Start-->
+        <div class="home-carousel">
+            <div class="dark-mask mask-primary"></div>
+            <div class="container">
+                <div class="homepage owl-carousel">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-5 text-right">
+                                <p><img src="{{ asset('assets') }}/img/logo.png" alt="" class="ml-auto"></p>
+                                <h1>Multipurpose responsive theme</h1>
+                                <p>Business. Corporate. Agency.<br>Portfolio. Blog. E-commerce.</p>
+                            </div>
+                            <div class="col-md-7"><img src="{{ asset('assets') }}/img/template-homepage.png" alt="" class="img-fluid"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-7 text-center"><img src="{{ asset('assets') }}/img/template-mac.png" alt="" class="img-fluid"></div>
+                            <div class="col-md-5">
+                                <h2>46 HTML pages full of features</h2>
+                                <ul class="list-unstyled">
+                                    <li>Sliders and carousels</li>
+                                    <li>4 Header variations</li>
+                                    <li>Google maps, Forms, Megamenu, CSS3 Animations and much more</li>
+                                    <li>+ 11 extra pages showing template features</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="slider-img wow fadeInUp">
-                                <img src="{{ asset('assets')}}/images/person1.png" alt="business man">
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-5 text-right">
+                                <h1>Design</h1>
+                                <ul class="list-unstyled">
+                                    <li>Clean and elegant design</li>
+                                    <li>Full width and boxed mode</li>
+                                    <li>Easily readable Roboto font and awesome icons</li>
+                                    <li>7 preprepared colour variations</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-7"><img src="{{ asset('assets') }}/img/template-easy-customize.png" alt="" class="img-fluid"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-7"><img src="{{ asset('assets') }}/img/template-easy-code.png" alt="" class="img-fluid"></div>
+                            <div class="col-md-5">
+                                <h1>Easy to customize</h1>
+                                <ul class="list-unstyled">
+                                    <li>7 preprepared colour variations.</li>
+                                    <li>Easily to change fonts</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="single-slide">
-            <img src="{{ asset('assets')}}/images/slider-3.jpg" alt="img">
-            <div class="slide-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="slide-article">
-                                <h1 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">We are Best Team & Support you always</h1>
-                                <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
-                                <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="slider-img wow fadeInUp">
-                                <img src="{{ asset('assets')}}/images/person2.png" alt="business man">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Carousel End-->
     </div>
 </section>
-<!-- End slider -->

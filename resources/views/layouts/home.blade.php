@@ -1,97 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title> @yield('title') </title>
-
+    <title> @yield('title')</title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
     <meta name="author" content="@yield('author')">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="{{ asset('assets') }}/images/favicon.ico"/>
-    <!-- Font Awesome -->
-    <link href="{{ asset('assets') }}/css/font-awesome.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="{{ asset('assets') }}/css/bootstrap.css" rel="stylesheet">
-    <!-- Slick slider -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/css/slick.css"/>
-    <!-- Fancybox slider -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/jquery.fancybox.css" type="text/css" media="screen" />
-    <!-- Animate css -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/css/animate.css"/>
-    <!-- Progress bar  -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/css/bootstrap-progressbar-3.3.4.css"/>
-    <!-- Theme color -->
-    <link id="switcher" href="{{ asset('assets') }}/css/theme-color/default-theme.css" rel="stylesheet">
-
-    <!-- Main Style -->
-    <link href="{{ asset('assets') }}/style.css" rel="stylesheet">
-
-    <!-- Fonts -->
-
-    <!-- Open Sans for body font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- Lato for Title -->
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/vendor/bootstrap-select/css/bootstrap-select.min.css">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="{{ asset('assets') }}/vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="{{ asset('assets') }}/css/custom.css">
+    <!-- Favicon and apple touch icons-->
+    <link rel="shortcut icon" href="{{ asset('assets') }}/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{ asset('assets') }}/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets') }}/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets') }}/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets') }}/img/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets') }}/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets') }}/img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets') }}/img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets') }}/img/apple-touch-icon-152x152.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
     @yield('css')
     @yield('headerjs')
+
 </head>
 <body>
-
-<!-- BEGAIN PRELOADER -->
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
-<!-- END PRELOADER -->
-<!-- SCROLL TOP BUTTON -->
-<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-<!-- END SCROLL TOP BUTTON -->
+<div id="all">
+    @include('home._topbar')
+    @include('home._login')
+    @include('home._header')
+    @include('home._slider')
 
 
-@include('home._header')
-
-
-<div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
-    <div class="modal-dialog">
-        @include('home._login')
-        @include('home._signup')
-
-    </div>
+    @section('content')
+        içerik alan
+    @show
+    @include('home._footer')
 </div>
 
-<section id="menu-area">
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-
-                @include('home._navheader')
-
-                @include('home._navcoll')
-
-        </div>
-    </nav>
-</section>
-
-
-@include('home._slider')
-
-
-@section('content')
-    içerik alan
-@show
+<!-- Javascript files-->
+<script src="{{ asset('assets') }}/vendor/jquery/jquery.min.js"></script>
+<script src="{{ asset('assets') }}/vendor/popper.js/umd/popper.min.js"> </script>
+<script src="{{ asset('assets') }}/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{ asset('assets') }}/vendor/jquery.cookie/jquery.cookie.js"> </script>
+<script src="{{ asset('assets') }}/vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+<script src="{{ asset('assets') }}/vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+<script src="{{ asset('assets') }}/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="{{ asset('assets') }}/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+<script src="{{ asset('assets') }}/js/jquery.parallax-1.1.3.js"></script>
+<script src="{{ asset('assets') }}/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script src="{{ asset('assets') }}/vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+<script src="{{ asset('assets') }}/js/front.js"></script>
 
 
-@include('home._footer')
+
+
+
+
+
+
 @yield('footerjs')
 
 </body>

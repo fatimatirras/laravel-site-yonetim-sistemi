@@ -20,9 +20,264 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="index Changed">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/bootstrap-progressbar-3.3.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/bridge-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/dark-red-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/default-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/fountain-blue-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/green-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/lite-blue-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/orange-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/pink-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/purple-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/css/theme-color/red-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/blog-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/blog-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/blog-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/counter-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/discovery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/envato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/fancybox_sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/person1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/person2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-big-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-big-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-big-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-big-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/portfolio/portfolio-big-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/slider-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/slider-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/subscribe-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/team-member-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/team-member-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/team-member-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/testi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/testi2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/testi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/images/tuenti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/bootstrap-progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/jquery.counterup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/jquery.mixitup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/assets/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/blog-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/blog-single-with-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/blog-single-with-out-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/blog-single-with-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/feature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/Intensely/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/icons/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/buttons/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/fancy-type/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/fancy-type/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/feed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/im.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/visited.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/icons/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/link-icons/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/rtl/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/plugins/rtl/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/blueprint-css/src/typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/help/DOCUMENTATION/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-progressbar-3.3.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/bridge-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/dark-red-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/default-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/fountain-blue-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/green-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/lite-blue-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/orange-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/pink-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/purple-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/theme-color/red-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/blog-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/blog-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/blog-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/counter-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/discovery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/envato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/fancybox_sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/person1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/person2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-big-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-big-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-big-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-big-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/portfolio-big-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/slider-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/slider-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/subscribe-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team-member-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team-member-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/team-member-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/testi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/testi2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/testi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/tuenti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.counterup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.fancybox.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.mixitup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_Clients.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_Testimonial.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_about.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_counter.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_feature.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_latestNews.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_navcoll.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_navheader.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_service.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_signup.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_slider.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_subscribeUs.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_table.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
     </list>
@@ -203,7 +458,13 @@
       <workItem from="1607876005605" duration="4063000" />
       <workItem from="1608041042040" duration="1238000" />
       <workItem from="1608046499395" duration="2983000" />
-      <workItem from="1608126957620" duration="7296000" />
+      <workItem from="1608126957620" duration="7328000" />
+      <workItem from="1608213530455" duration="3558000" />
+      <workItem from="1608223547165" duration="3518000" />
+      <workItem from="1608398112733" duration="2375000" />
+      <workItem from="1608413873479" duration="1822000" />
+      <workItem from="1608416379060" duration="10000" />
+      <workItem from="1608467807983" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -296,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608046890754</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="index Changed">
+      <created>1608148347089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608148347089</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,10 +615,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607552342614" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607871394242">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1608468334851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607871394242" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608468334851" />
     <state x="38" y="167" key="SettingsEditor" timestamp="1608047729885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,10 +627,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1608046894919">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1608148353457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608046894919" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608148353457" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607875856521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

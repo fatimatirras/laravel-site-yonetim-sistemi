@@ -1,24 +1,27 @@
-<div id="login-content" class="modal-content">
-    <div class="modal-header">
-        <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
-        <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>Login</h4>
-    </div>
-    <div class="modal-body">
-        <form>
-            <div class="form-group">
-                <input type="text" placeholder="User name" class="form-control">
+<!-- Login Modal-->
+<div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true" class="modal fade">
+    <div role="document" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 id="login-modalLabel" class="modal-title">Customer Login</h4>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
             </div>
-            <div class="form-group">
-                <input type="password" placeholder="Password" class="form-control">
+            <div class="modal-body">
+                <form action="customer-orders.html" method="get">
+                    <div class="form-group">
+                        <input id="email_modal" type="text" placeholder="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input id="password_modal" type="password" placeholder="password" class="form-control">
+                    </div>
+                    <p class="text-center">
+                        <button class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Log in</button>
+                    </p>
+                </form>
+                <p class="text-center text-muted">Not registered yet?</p>
+                <p class="text-center text-muted"><a href="customer-register.html"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
             </div>
-            <div class="loginbox">
-                <label><input type="checkbox"><span>Remember me</span></label>
-                <button class="btn signin-btn" type="button">SIGN IN</button>
-            </div>
-        </form>
-    </div>
-    <div class="modal-footer footer-box">
-        <a href="#">Forgot password ?</a>
-        <span>No account ? <a id="signup-btn" href="#">Sign Up.</a></span>
+        </div>
     </div>
 </div>
+<!-- Login modal end-->
