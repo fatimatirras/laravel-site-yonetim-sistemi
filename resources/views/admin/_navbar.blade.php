@@ -6,6 +6,15 @@
             <!-- User Info-->
             <div class="sidenav-header-inner text-center"><img src="{{ asset('assets') }}/admin/img/avatar-7.jpg" alt="person" class="img-fluid rounded-circle">
                 <h2 class="h5">Nathan Andrews</h2><span>Web Developer</span>
+
+                <div class="info">
+                    @auth
+                        <a href="#" class="d-block">{{ Auth::user()->name }}</a>
+                        <a href="{{ route('admin_logout') }}" class="d-block">Logout</a>
+                    @endauth
+
+                </div>
+
             </div>
             <!-- Small Brand information, appears on minimized sidebar-->
             <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>

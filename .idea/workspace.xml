@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="new template">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="add admin">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="hive&#10;azure&#10;hsqldb&#10;sqlite&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -217,7 +216,9 @@
       <workItem from="1608413873479" duration="1822000" />
       <workItem from="1608416379060" duration="10000" />
       <workItem from="1608467807983" duration="3646000" />
-      <workItem from="1608741035944" duration="9149000" />
+      <workItem from="1608741035944" duration="9510000" />
+      <workItem from="1608813256347" duration="9777000" />
+      <workItem from="1608897895070" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -324,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608470429458</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add admin">
+      <created>1608760844259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608760844259</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,13 +353,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index Changed" />
     <MESSAGE value="new template" />
-    <option name="LAST_COMMIT_MESSAGE" value="new template" />
+    <MESSAGE value="add admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="983" y="220" width="816" height="729" key="#Intentions" timestamp="1608910429427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="983" y="220" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1608910429427" />
     <state x="334" y="312" key="#Web_Browsers" timestamp="1607768066611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="312" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1607768066611" />
+    <state x="988" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608837253647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="988" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608837253647" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607552342614" />
-    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1608749524620">
+    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1608830569059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608749524620" />
+    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608830569059" />
     <state x="38" y="167" key="SettingsEditor" timestamp="1608047729885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,13 +409,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1608470437589">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1608760851163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608470437589" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607875856521">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608760851163" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608836690573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607875856521" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608836690573" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608909675116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608909675116" />
   </component>
 </project>
