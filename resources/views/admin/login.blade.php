@@ -41,12 +41,12 @@
                 <form action="{{ route('admin_logincheck') }}" method ="post">
                     @csrf
                     <div class="form-group-material">
-                        <input id="login-email" type="email" name="email" required data-msg="Please enter your username" class="input-material">
-                        <label for="login-email" class="label-material">Username</label>
+                        <input id="email" type="email" name="email" required data-msg="Please enter your username" class="input-material">
+                        <label for="email" class="label-material">Username</label>
                     </div>
                     <div class="form-group-material">
-                        <input id="login-password" type="password" name="Password" required data-msg="Please enter your password" class="input-material">
-                        <label for="login-password" class="label-material">Password</label>
+                        <input id="password" type="password" name="password" required data-msg="Please enter your password" class="input-material">
+                        <label for="password" class="label-material">Password</label>
                     </div>
                     <div class="form-group text-center"><a id="login" href="index.html" class="btn btn-primary"><button type="submit" >Login</button></a>
                         <!-- This should be submit button but I replaced it with <a> for demo purposes-->
