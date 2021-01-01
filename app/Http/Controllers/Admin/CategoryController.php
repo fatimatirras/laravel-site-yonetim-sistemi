@@ -50,8 +50,16 @@ class CategoryController extends Controller
      */
     public function create(Request $request)
     {
-        echo "insert category";
-        //
+
+        DB::table('categories')->insert([
+            'parent_id' => $request->input('parent_id'),
+            'title' => $request->input('title'),
+            'keywords' => $request->input('keywords'),
+            'description' => $request->input('description'),
+            'status' => $request->input('status')
+
+        ]);
+        return redirect()->route('admin_category');
     }
 
     /**
@@ -106,8 +114,10 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
+    public function destroy(Category $category,$id)
     {
-        //
+        DB::table('categories')->where('id','=',$id)->delete();
+        return redirect()->route('admin_category');
     }
+
 }

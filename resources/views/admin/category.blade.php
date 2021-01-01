@@ -15,9 +15,14 @@
 
 
     <div class="col-lg-6">
+        <div>
+            <h4>Categories</h4>
+        </div>
         <div class="card">
+
             <div class="card-header">
-                <h4>Striped Table</h4>
+
+               <a  href="{{route('admin_category_add')}}" type="submit" class="btn btn-primary">Add Category</a>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -42,7 +47,7 @@
                                 <td>{{ $rs->title }}</td>
                                 <td>{{ $rs->status }}</td>
                                 <td>Edit</td>
-                                <td>Delete</td>
+                                <td><a href="{{route('admin_category_delete',['id' => $rs->id])}}" onclick="return confirm('Are you sure?')">Delete</a></td>
 
                             </tr>
                         @endforeach

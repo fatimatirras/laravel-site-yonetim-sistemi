@@ -23,7 +23,7 @@
                         <div class="form-group">
                             <label>Parent</label>
 
-                            <select name="account" class="form-control" name="status">
+                            <select  class="form-control" name="parent_id">
                                 <option value="o" selected="selected">Main Category</option>
 
                                 @foreach( $datalist as $rs)
@@ -52,7 +52,7 @@
                         <div class="form-group row">
                             <label class="col-sm-2 form-control-label">Status</label>
                             <div class="col-sm-10 mb-3">
-                                <select name="account" class="form-control" name="status">
+                                <select name="status" class="form-control" >
                                     <option>False</option>
                                     <option>True</option>
                                 </select>
