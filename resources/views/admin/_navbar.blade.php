@@ -9,7 +9,7 @@
 
                 <div class="info">
                     @auth
-                        <a href="#" class="d-block">{{ Auth::user()->name }}</a>
+                        <a  class="d-block">{{ Auth::user()->name }}</a>
                         <a href="{{ route('admin_logout') }}" class="d-block">Logout</a>
                     @endauth
 
@@ -23,8 +23,11 @@
         <div class="main-menu">
             <h5 class="sidenav-heading">Main</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
-                <li><a href="{{ route('admin_home') }}" class="nav-link"> Home       </a></li>
-                <li><a href="{{ route('admin_category') }}" class="nav-link"> Category      </a></li>
+                <li><a href="{{ route('admin_home') }}" class="nav-link"> <i class="icon-home"></i> Home </a></li>
+                <li><a href="{{ route('admin_menu') }}" class="nav-link"><i class="icon-interface-windows"></i> Menu      </a></li>
+
+                <li><a href="" class="nav-link"> Product    </a></li>
+
                 <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts             </a></li>
                 <li><a href="tables.html"> <i class="icon-grid"></i>Tables                    </a></li>
@@ -35,7 +38,7 @@
                         <li><a href="#">Sayfa</a></li>
                     </ul>
                 </li>
-                <li><a href="login.html"> <i class="icon-interface-windows"></i>Giriş Sayfası                            </a></li>
+                <li><a href="{{ route('admin_login') }}"> <i class="icon-interface-windows"></i>Giriş Sayfası                            </a></li>
                 <li> <a href="#"> <i class="icon-mail"></i>Mesajlar
                         <div class="badge badge-warning">6 yeni</div></a></li>
             </ul>

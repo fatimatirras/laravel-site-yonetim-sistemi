@@ -20,7 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="products">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e747af7-1642-4f17-83af-86c0cc3ee230.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e747af7-1642-4f17-83af-86c0cc3ee230/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/admin/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/admin/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/admin/vendor/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/admin/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/admin/vendor/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/admin/vendor/chart.js/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/template/js/front.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/template/js/front.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap-select/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap-select/js/bootstrap-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap-select/js/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap-select/js/bootstrap-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/template/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_25_184323_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_25_193917_category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_133522_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_02_134922_product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/vendor/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/vendor/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendor/chart.js/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/front.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/front.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/vendor/bootstrap-select/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap-select/js/bootstrap-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/vendor/bootstrap-select/js/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap-select/js/bootstrap-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +277,9 @@
       <workItem from="1609505343418" duration="28423000" />
       <workItem from="1609586116076" duration="6469000" />
       <workItem from="1609595725966" duration="598000" />
-      <workItem from="1609596436432" duration="1144000" />
+      <workItem from="1609596436432" duration="14848000" />
+      <workItem from="1609671894833" duration="11665000" />
+      <workItem from="1609683726260" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -390,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609596228622</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="products">
+      <created>1609597680163</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609597680163</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,10 +477,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="312" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1609011980722" />
-    <state x="719" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609596763865">
+    <state x="719" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609682817974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="719" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609596763865" />
+    <state x="719" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609682817974" />
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609680468002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609680468002" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609682621824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609682621824" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -472,6 +525,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608988686311" />
+    <state x="676" y="240" key="RollbackChangesDialog" timestamp="1609680893184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609680893184" />
     <state x="38" y="167" key="SettingsEditor" timestamp="1608047729885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -480,10 +537,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1609596301330">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1609597688701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609596301330" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609597688701" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609094486017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -496,10 +553,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609356107803" />
-    <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1608922392337">
+    <state x="756" y="340" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1609675294243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608922392337" />
+    <state x="756" y="340" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609675294243" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609680860964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609680860964" />
+    <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1609678050667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609678050667" />
     <state x="1355" y="543" key="refactoring.ChangeSignatureDialog" timestamp="1609587173205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

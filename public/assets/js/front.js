@@ -14,7 +14,7 @@ $(function () {
             $('header.nav-holder.make-sticky').removeClass('sticky');
             $('body').css('padding-top', '0');
         }
-    }); 
+    });
 
     // ------------------------------------------------------- //
     // Multi-level dropdown
