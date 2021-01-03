@@ -26,7 +26,7 @@
                 <li><a href="{{ route('admin_home') }}" class="nav-link"> <i class="icon-home"></i> Home </a></li>
                 <li><a href="{{ route('admin_menu') }}" class="nav-link"><i class="icon-interface-windows"></i> Menu      </a></li>
 
-                <li><a href="" class="nav-link"> Product    </a></li>
+                <li><a href="{{ route('admin_hotels')}}" class="nav-link"><i class="icon-interface-windows"></i> Hotel  </a></li>
 
                 <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts             </a></li>

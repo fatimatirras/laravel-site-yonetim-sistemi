@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title','Edit Category')
+@section('title','Add Hotel')
 
 @section('content')
 
@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin_home') }}">Home</a></li>
-                <li class="breadcrumb-item active">Edit Category      </li>
+                <li class="breadcrumb-item active">Add Hotel      </li>
             </ul>
         </div>
     </div>
@@ -16,19 +16,17 @@
     <div class="card-body">
 
                  <div>
-                     <p>Edit Category</p>
+                     <p>Add Hotel</p>
                  </div>
-                    <form action="{{ route('admin_category_update',['id'=>$data->id])}}" method="post">
+                    <form action="{{ route('admin_hotel_store')}}" method="post">
                         @csrf
                         <div class="form-group">
                             <label>Parent</label>
 
-                            <select  class="form-control" name="parent_id" style="...">
-
-                                <option value="o" >Main Category</option>
+                            <select  class="form-control" name="menu_id">
 
                                 @foreach( $datalist as $rs)
-                                <option value="{{ $rs->id }}"  @if ($rs->id == $data->parent_id) selected="selected" @endif >{{ $rs->title }}</option>
+                                <option value="{{ $rs->id }}">{{ $rs->title }}</option>
                                 @endforeach
                             </select>
 
@@ -37,24 +35,46 @@
 
                         <div class="form-group">
                             <label>Title</label>
-                            <input type="text" name="title" value="{{$data->title}}"  class="form-control">
+                            <input type="text" name="title"  class="form-control">
                         </div>
 
                         <div class="form-group">
                             <label>Keywords</label>
-                            <input type="text" name="keywords" value="{{$data->keywords}}"  class="form-control">
+                            <input type="text" name="keywords"  class="form-control">
                         </div>
 
                         <div class="form-group">
                             <label>Description</label>
-                            <input type="text" name="description"  value="{{$data->description}}" class="form-control">
+                            <input type="text" name="description"  class="form-control">
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label>Detail</label>
+                            <input type="text" name="detail"  class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Menu</label>
+                            <input type="text" name="menu"  class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Haber</label>
+                            <input type="text" name="haber"  class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Duyuru</label>
+                            <input type="text" name="duyuru"  class="form-control">
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-2 form-control-label">Status</label>
-                            <div class="col-sm-10 mb-3">
+                            <div class="col-sm-12 mb-5">
                                 <select name="status" class="form-control" >
-                                    <option selected="selected">{{$data->status}}</option>
                                     <option>False</option>
                                     <option>True</option>
                                 </select>
@@ -63,7 +83,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" value="Update category" class="btn btn-primary">
+                            <input type="submit" value="Add hotel" class="btn btn-primary">
 
                         </div>
                     </form>

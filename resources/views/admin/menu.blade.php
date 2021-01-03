@@ -47,7 +47,7 @@
                                 <td>{{ $rs->title }}</td>
                                 <td>{{ $rs->status }}</td>
                                 <td><a href="{{route('admin_menu_edit',['id' => $rs->id])}}"> Edit</a></td>
-                                <td><a href="{{route('admin_menu_delete',['id' => $rs->id])}}" onclick="return confirm('Are you sure?')">Delete</a></td>
+                                <td><a href="{{route('admin_menu_delete',['id' => $rs->id])}}" onclick="return confirm('Emin misiniz?')">Delete</a></td>
 
                             </tr>
                         @endforeach

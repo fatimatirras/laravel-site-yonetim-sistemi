@@ -14,7 +14,18 @@ class CreateHotelsTable extends Migration
     public function up()
     {
         Schema::create('hotels', function (Blueprint $table) {
-            $table->id();
+            $table->id()->autoIncrement();
+            $table->string('title',150);
+            $table->string('keywords')->nullable();
+            $table->string('description')->nullable();
+            $table->string('image',75)->nullable();
+            $table->integer('menu_id')->nullable();
+            $table->text('detail')->nullable();
+            $table->string('menu')->nullable();
+            $table->string('haber')->nullable();
+            $table->string('duyuru')->nullable();
+            $table->integer('user_id')->nullable();
+            $table->string('status',5)->nullable()->default('false');
             $table->timestamps();
         });
     }
