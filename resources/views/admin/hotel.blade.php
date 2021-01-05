@@ -33,7 +33,7 @@
                             <th>Haber</th>
                             <th>Duyuru</th>
                             <th>Image</th>
-                            <th>Image Menu</th>
+                            <th>Image Gallery</th>
                             <th>Status</th>
                             <th>Edit</th>
                             <th>Delete</th>

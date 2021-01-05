@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Image Menu</title>
+    <title>Image Galleri</title>
     <link rel="stylesheet" href="{{ asset('assets') }}/admin/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="{{ asset('assets') }}/admin/vendor/font-awesome/css/font-awesome.min.css">

@@ -23,7 +23,7 @@
         <div class="main-menu">
             <h5 class="sidenav-heading">Main</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
-                <li><a href="{{ route('admin_login') }}"> <i class="icon-interface-windows"></i>Giriş Sayfası </a></li>
+                <li><a href="{{ route('admin_login') }}"><img src="{{asset('assets/admin/images')}}/login.png" height="23">Giriş Sayfası </a></li>
                 <li><a href="{{ route('admin_home') }}" class="nav-link"> <i class="icon-home"></i> Home </a></li>
                 <li><a href="{{ route('admin_menu') }}" class="nav-link"><i class="icon-interface-windows"></i> Menu      </a></li>
 
