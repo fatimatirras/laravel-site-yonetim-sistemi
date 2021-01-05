@@ -32,7 +32,6 @@ class ImageController extends Controller
     {
       $data = Hotel::find($hotel_id);
       $images = DB::table('images')->where('hotel_id','=', $hotel_id)->get();
-      //$images = Image::whereColumn('hotel_id',"=",$hotel_id);
       return view('admin.image_add',['data' => $data,'images' => $images]);
     }
 

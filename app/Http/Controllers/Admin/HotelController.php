@@ -97,7 +97,6 @@ class HotelController extends Controller
         $data->title = $request->input('title');
         $data->keywords = $request->input('keywords');
         $data->description = $request->input('description');
-
         $data->detail = $request->input('detail');
         $data->menu = $request->input('menu');
         $data->haber = $request->input('haber');

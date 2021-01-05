@@ -12,16 +12,12 @@
             </ul>
         </div>
     </div>
-
-
     <div class="col-lg-12">
         <div>
             <h4>Holtes</h4>
         </div>
         <div class="card">
-
             <div class="card-header">
-
                 <a  href="{{route('admin_hotel_add')}}" type="submit" class="btn btn-primary">Add Hotel</a>
             </div>
             <div class="card-body">
