@@ -15,9 +15,6 @@
 
     <div class="card-body">
 
-                 <div>
-                     <p>Add Menu</p>
-                 </div>
                     <form action="{{ route('admin_menu_create')}}" method="post">
                         @csrf
                         <div class="form-group">

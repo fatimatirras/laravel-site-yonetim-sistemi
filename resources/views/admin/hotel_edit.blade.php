@@ -1,6 +1,15 @@
 @extends('layouts.admin')
 
 @section('title','Edit Hotel')
+@section('javascript')
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- include summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+@endsection
 
 @section('content')
 
@@ -18,7 +27,7 @@
                  <div>
                      <p>Edit Hotel</p>
                  </div>
-                    <form action="{{ route('admin_hotel_update',['id'=>$data->id])}}" method="post">
+                    <form action="{{ route('admin_hotel_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label>Parent</label>
@@ -53,7 +62,13 @@
 
                         <div class="form-group">
                             <label>Detail</label>
-                            <input type="text" name="detail" value="{{$data->detail}}" class="form-control">
+                            <textarea id="summernote" name="detail">{{$data->detail}}</textarea>
+                            <script>
+                                $(document).ready(function() {
+                                    $(`#summernote`).summernote();
+                                });
+                            </script>
+
                         </div>
 
                         <div class="form-group">
@@ -69,6 +84,13 @@
                         <div class="form-group">
                             <label>Duyuru</label>
                             <input type="text" name="duyuru"  value="{{$data->duyuru}}" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input type="file" name="image" value="{{$data->image}}" class="form-control">
+                            @if ($data->image)
+                                <img src="{{ Storage::url($data->image)}}" height="100" alt="">
+                            @endif
                         </div>
 
                         <div class="form-group row">

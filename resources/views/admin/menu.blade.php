@@ -46,8 +46,8 @@
                                 <td>{{ $rs->parent_id }}</td>
                                 <td>{{ $rs->title }}</td>
                                 <td>{{ $rs->status }}</td>
-                                <td><a href="{{route('admin_menu_edit',['id' => $rs->id])}}"> Edit</a></td>
-                                <td><a href="{{route('admin_menu_delete',['id' => $rs->id])}}" onclick="return confirm('Emin misiniz?')">Delete</a></td>
+                                <td><a href="{{route('admin_menu_edit',['id' => $rs->id])}}"> <img src="{{asset('assets/admin/images')}}/edit.png" height="26"></a></td>
+                                <td><a href="{{route('admin_menu_delete',['id' => $rs->id])}}" onclick="return confirm('Emin misiniz?')"><img src="{{asset('assets/admin/images')}}/delete.png" height="26"></a></td>
 
                             </tr>
                         @endforeach

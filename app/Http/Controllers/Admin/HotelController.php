@@ -8,6 +8,7 @@ use App\Models\Menu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class HotelController extends Controller
 {
@@ -47,13 +48,13 @@ class HotelController extends Controller
         $data->title = $request->input('title');
         $data->keywords = $request->input('keywords');
         $data->description = $request->input('description');
-
         $data->detail = $request->input('detail');
         $data->menu = $request->input('menu');
         $data->haber = $request->input('haber');
         $data->duyuru = $request->input('duyuru');
         $data->user_id = Auth::id();
         $data->status = $request->input('status');
+        $data->image = Storage::putFile('images', $request->file('image'));
         $data->save();
         return redirect()->route('admin_hotels');
     }
@@ -103,6 +104,7 @@ class HotelController extends Controller
         $data->duyuru = $request->input('duyuru');
         $data->user_id = Auth::id();
         $data->status = $request->input('status');
+        $data->image = Storage::putFile('images',$request->file('image'));
         $data->save();
         return redirect()->route('admin_hotels');
     }

@@ -10,7 +10,7 @@
                 <div class="info">
                     @auth
                         <a  class="d-block">{{ Auth::user()->name }}</a>
-                        <a href="{{ route('admin_logout') }}" class="d-block">Logout</a>
+
                     @endauth
 
                 </div>
@@ -23,6 +23,7 @@
         <div class="main-menu">
             <h5 class="sidenav-heading">Main</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
+                <li><a href="{{ route('admin_login') }}"> <i class="icon-interface-windows"></i>Giriş Sayfası </a></li>
                 <li><a href="{{ route('admin_home') }}" class="nav-link"> <i class="icon-home"></i> Home </a></li>
                 <li><a href="{{ route('admin_menu') }}" class="nav-link"><i class="icon-interface-windows"></i> Menu      </a></li>
 
@@ -38,7 +39,6 @@
                         <li><a href="#">Sayfa</a></li>
                     </ul>
                 </li>
-                <li><a href="{{ route('admin_login') }}"> <i class="icon-interface-windows"></i>Giriş Sayfası                            </a></li>
                 <li> <a href="#"> <i class="icon-mail"></i>Mesajlar
                         <div class="badge badge-warning">6 yeni</div></a></li>
             </ul>

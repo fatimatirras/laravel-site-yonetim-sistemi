@@ -2,6 +2,15 @@
 
 @section('title','Add Hotel')
 
+@section('javascript')
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- include summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+@endsection
+
 @section('content')
 
     <div class="breadcrumb-holder">
@@ -15,13 +24,10 @@
 
     <div class="card-body">
 
-                 <div>
-                     <p>Add Hotel</p>
-                 </div>
-                    <form action="{{ route('admin_hotel_store')}}" method="post">
+                    <form action="{{ route('admin_hotel_store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label>Parent</label>
+                            <label>Menu</label>
 
                             <select  class="form-control" name="menu_id">
 
@@ -53,7 +59,12 @@
 
                         <div class="form-group">
                             <label>Detail</label>
-                            <input type="text" name="detail"  class="form-control">
+                            <textarea id="summernote" name="detail"></textarea>
+                            <script>
+                                $(document).ready(function() {
+                                    $('#summernote').summernote();
+                                });
+                            </script>
                         </div>
 
                         <div class="form-group">
@@ -69,6 +80,11 @@
                         <div class="form-group">
                             <label>Duyuru</label>
                             <input type="text" name="duyuru"  class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input type="file" name="image"  class="form-control">
                         </div>
 
                         <div class="form-group row">

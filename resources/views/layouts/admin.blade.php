@@ -29,6 +29,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
+
     @yield('css')
     @yield('javascript')
 
@@ -44,17 +45,6 @@
  @include('admin._footer')
 
 </div>
-<!-- JavaScript files-->
-<script src="{{ asset('assets') }}/admin/vendor/jquery/jquery.min.js"></script>
-<script src="{{ asset('assets') }}/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('assets') }}/admin/js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
-<script src="{{ asset('assets') }}/admin/vendor/jquery.cookie/jquery.cookie.js"> </script>
-<script src="{{ asset('assets') }}/admin/vendor/chart.js/Chart.min.js"></script>
-<script src="{{ asset('assets') }}/admin/vendor/jquery-validation/jquery.validate.min.js"></script>
-<script src="{{ asset('assets') }}/admin/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="{{ asset('assets') }}/admin/js/charts-home.js"></script>
-<!-- Main File-->
-<script src="{{ asset('assets') }}/admin/js/front.js"></script>
 
 @yield('footer')
 

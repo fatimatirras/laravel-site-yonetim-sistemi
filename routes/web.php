@@ -54,9 +54,17 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
     });
 
+    #hotel image menu
+    Route::prefix('image')->group(function (){
+        Route::get('create/{hotel_id}',[\App\Http\Controllers\Admin\ImageController::class,'create'])->name('admin_image_add');
+        Route::post('store/{hotel_id}',[\App\Http\Controllers\Admin\ImageController::class,'store'])->name('admin_image_store');
+        Route::get('delete/{id}/{hotel_id}',[\App\Http\Controllers\Admin\ImageController::class,'destroy'])->name('admin_image_delete');
+        Route::post('show',[\App\Http\Controllers\Admin\ImageController::class,'show'])->name('admin_image_show');
+
+    });
+
 });
-
-
+Route::get('/admin/giris',[HomeController::class, 'giris'])->name('admin_giris');
 Route::get('/admin/login',[HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
 Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');

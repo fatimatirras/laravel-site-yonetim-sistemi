@@ -33,10 +33,11 @@
                             <th>Id</th>
                             <th>Menu</th>
                             <th>Title</th>
-                            <th>Menu</th>
+                            <th>Menu_id</th>
                             <th>Haber</th>
                             <th>Duyuru</th>
                             <th>Image</th>
+                            <th>Image Menu</th>
                             <th>Status</th>
                             <th>Edit</th>
                             <th>Delete</th>
@@ -52,10 +53,15 @@
                                 <td>{{ $rs->menu }}</td>
                                 <td>{{ $rs->haber }}</td>
                                 <td>{{ $rs->duyuru }}</td>
-                                <td>{{ $rs->image }}</td>
+                               <td>
+                                   @if ($rs->image)
+                                       <img src="{{ Storage::url($rs->image)}}" height="30" alt="">
+                                   @endif
+                               </td>
+                                <td><a href="{{route('admin_image_add',['hotel_id' => $rs->id])}}" onclick="return !window.open(this.href,'','top=50 left=100 width=1100,height=700')"> <img src="{{asset('assets/admin/images')}}/gallery.png" height="26"> </a></td>
                                 <td>{{ $rs->status }}</td>
-                                <td><a href="{{route('admin_hotel_edit',['id' => $rs->id])}}"> <ion-icon name="create-outline" > Edit</ion-icon></a></td>
-                                <td><a href="{{route('admin_hotel_delete',['id' => $rs->id])}}" onclick="return confirm('Emin misiniz?')"><ion-icon name="trash-outline">Delete</ion-icon></a></td>
+                                <td><a href="{{route('admin_hotel_edit',['id' => $rs->id])}}"> <img src="{{asset('assets/admin/images')}}/edit.png" height="26"></a></td>
+                                <td><a href="{{route('admin_hotel_delete',['id' => $rs->id])}}" onclick="return confirm('Emin misiniz?')"><img src="{{asset('assets/admin/images')}}/delete.png" height="26"></a></td>
 
                             </tr>
                         @endforeach
