@@ -23,11 +23,12 @@
         <div class="main-menu">
             <h5 class="sidenav-heading">Main</h5>
             <ul id="side-main-menu" class="side-menu list-unstyled">
-                <li><a href="{{ route('admin_login') }}"><img src="{{asset('assets/admin/images')}}/login.png" height="23">Giriş Sayfası </a></li>
-                <li><a href="{{ route('admin_home') }}" class="nav-link"> <i class="icon-home"></i> Home </a></li>
-                <li><a href="{{ route('admin_menu') }}" class="nav-link"><i class="icon-interface-windows"></i> Menu      </a></li>
+                <li><a href="{{ route('admin_login') }}"><img src="{{asset('assets/admin/images')}}/login.png" height="23">  Giriş Sayfası </a></li>
+                <li><a href="{{ route('admin_home') }}" > <img src="{{asset('assets/admin/images')}}/home.png" height="23">  Home </a></li>
+                <li><a href="{{ route('admin_menu') }}" > <img src="{{asset('assets/admin/images')}}/menu.png" height="23">  Menu      </a></li>
+                <li><a href="{{ route('admin_hotels')}}" ><img src="{{asset('assets/admin/images')}}/hotel.png" height="23"> Hotel  </a></li>
 
-                <li><a href="{{ route('admin_hotels')}}" class="nav-link"><i class="icon-interface-windows"></i> Hotel  </a></li>
+                <li><a href="{{ route('admin_setting')}}" ><img src="{{asset('assets/admin/images')}}/setting.png" height="23"> Settings  </a></li>
 
                 <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts             </a></li>

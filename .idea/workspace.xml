@@ -19,11 +19,239 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="Hotel image gallery">
+    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="güncelleme">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_120947_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_06_122729_setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.sea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/css/style.violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/botas66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/cslink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/evian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/kofola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/logo-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/mdfc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/customers/vanek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/logo-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/main-slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/main-slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/main-slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/main-slider4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/parallax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/person-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/person-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/person-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/person-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/img/template-mac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/js/modernizr-2.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/animate-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/_base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/bounce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/flash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/headShake.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/heartBeat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/jello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/pulse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/rubberBand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/shake.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/swing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/tada.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/attention_seekers/wobble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_entrances/bounceIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_entrances/bounceInDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_entrances/bounceInLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_entrances/bounceInRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_entrances/bounceInUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_exits/bounceOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_exits/bounceOutDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_exits/bounceOutLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_exits/bounceOutRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/bouncing_exits/bounceOutUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInDownBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInLeftBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInRightBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_entrances/fadeInUpBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutDownBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutLeftBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutRightBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/fading_exits/fadeOutUpBig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/flippers/flip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/flippers/flipInX.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/flippers/flipInY.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/flippers/flipOutX.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/flippers/flipOutY.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/lightspeed/lightSpeedIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/lightspeed/lightSpeedOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_entrances/rotateIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_entrances/rotateInDownLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_entrances/rotateInDownRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_entrances/rotateInUpLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_entrances/rotateInUpRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_exits/rotateOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_exits/rotateOutDownLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_exits/rotateOutDownRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_exits/rotateOutUpLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/rotating_exits/rotateOutUpRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_entrances/slideInDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_entrances/slideInLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_entrances/slideInRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_entrances/slideInUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_exits/slideOutDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_exits/slideOutLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_exits/slideOutRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/sliding_exits/slideOutUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/specials/hinge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/specials/jackInTheBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/specials/rollIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/specials/rollOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_entrances/zoomIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_entrances/zoomInDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_entrances/zoomInLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_entrances/zoomInRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_entrances/zoomInUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_exits/zoomOut.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_exits/zoomOutDown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_exits/zoomOutLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_exits/zoomOutRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/animate.css/source/zooming_exits/zoomOutUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-parallax.js/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-parallax.js/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/infinite-scroll/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/infinite-scroll/waypoints-infinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/infinite-scroll/waypoints-infinite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/sticky-elements/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/sticky-elements/waypoints-sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery-waypoints/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.cookie/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.cookie/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.counterup/counterup.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.counterup/jquery.counterup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery.counterup/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/owl.carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/popper.js/umd/poppper.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/jquery.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/noframework.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/noframework.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/infinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/infinite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/inview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/inview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/shortcuts/sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/waypoints.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/zepto.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/lib/zepto.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/licenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/Yeni klasör/vendor/waypoints/testem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/nav-item nav-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/login1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/menu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-site-yonetim-sistemi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-site-yonetim-sistemi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/style.violet.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/style.violet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/gallery2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +482,10 @@
       <workItem from="1609689721155" duration="14704000" />
       <workItem from="1609707014713" duration="1357000" />
       <workItem from="1609758498031" duration="19346000" />
-      <workItem from="1609845920601" duration="26049000" />
+      <workItem from="1609845920601" duration="26074000" />
+      <workItem from="1609932512566" duration="25214000" />
+      <workItem from="1610025969842" duration="25927000" />
+      <workItem from="1610104065004" duration="13924000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -445,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609886135044</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="güncelleme">
+      <created>1609887784088</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609887784088</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,17 +714,18 @@
     <MESSAGE value="Menu ekleme,düzenmleme silme" />
     <MESSAGE value="image upload" />
     <MESSAGE value="Hotel image gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel image gallery" />
+    <MESSAGE value="güncelleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="güncelleme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1609881797411">
+    <state x="586" y="198" key="#Inspections" timestamp="1610119979865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1609881797411" />
-    <state x="983" y="220" width="816" height="729" key="#Intentions" timestamp="1608910429427">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610119979865" />
+    <state x="983" y="220" width="816" height="774" key="#Intentions" timestamp="1609946070942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="983" y="220" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1608910429427" />
+    <state x="983" y="220" width="816" height="774" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1609946070942" />
     <state x="711" y="344" key="#Notifications" timestamp="1609072196026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,10 +742,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609680468002" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609873806587">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609940379568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609873806587" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609940379568" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -555,10 +794,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1609886140899">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1609887789930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609886140899" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609887789930" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609094486017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -587,17 +826,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609678050667" />
-    <state x="1355" y="543" key="refactoring.ChangeSignatureDialog" timestamp="1609587173205">
+    <state x="1355" y="543" key="refactoring.ChangeSignatureDialog" timestamp="1609940958689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1355" y="543" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609587173205" />
+    <state x="1355" y="543" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609940958689" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1608836690573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608836690573" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609588816640">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609957415589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609588816640" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609957415589" />
   </component>
 </project>
