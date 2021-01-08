@@ -66,11 +66,11 @@
         <h3>Edit Setting</h3>
     </div>
     <div>
-        <div>
+        <div  >
             <form action="{{ route('admin_setting_update')}}" method="post" enctype="multipart/form-data">
                 @csrf
                 <div >
-            <div class="col-16 col-sm-16">
+            <div class="col-16 col-sm-13">
                 <nav>
                     <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                         <a class="nav-item nav-link active" id="nav-general-tab" data-toggle="tab" href="#nav-general" role="tab" aria-controls="nav-general" aria-selected="true">General </a>
@@ -81,7 +81,7 @@
                         <a class="nav-item nav-link" id="nav-references-tab" data-toggle="tab" href="#nav-references" role="tab" aria-controls="nav-references" aria-selected="false">References </a>
                     </div>
                 </nav>
-                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="tab-content py-3 px-3 px-sm-3" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
                         <input type="hidden" id="id" name="id"  value="{{$data->id}}" class="form-control">
                         <div class="form-group">
