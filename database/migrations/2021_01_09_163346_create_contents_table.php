@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateHotelsTable extends Migration
+class CreateContentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateHotelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('hotels', function (Blueprint $table) {
+        Schema::create('contents', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->string('title',150);
             $table->string('keywords')->nullable();
@@ -22,8 +22,8 @@ class CreateHotelsTable extends Migration
             $table->integer('menu_id')->nullable();
             $table->text('detail')->nullable();
             $table->string('menu')->nullable();
-            $table->string('haber')->nullable();
-            $table->string('duyuru')->nullable();
+            $table->string('news')->nullable();
+            $table->string('announcement')->nullable();
             $table->integer('user_id')->nullable();
             $table->string('status',5)->nullable()->default('false');
             $table->timestamps();
@@ -37,6 +37,6 @@ class CreateHotelsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hotels');
+        Schema::dropIfExists('contents');
     }
 }

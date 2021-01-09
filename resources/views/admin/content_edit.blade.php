@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title','Edit Hotel')
+@section('title','Edit Content')
 @section('javascript')
 
 
@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin_home') }}">Home</a></li>
-                <li class="breadcrumb-item active">Edit Hotel      </li>
+                <li class="breadcrumb-item active">Edit Content      </li>
             </ul>
         </div>
     </div>
@@ -22,9 +22,9 @@
     <div class="card-body">
 
                  <div>
-                     <p>Edit Hotel</p>
+                     <p>Edit Content</p>
                  </div>
-                    <form action="{{ route('admin_hotel_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('admin_content_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label>Parent</label>
@@ -72,17 +72,17 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Haber</label>
-                            <input type="text" name="haber" value="{{$data->haber}}" class="form-control">
+                            <label>News</label>
+                            <input type="text" name="news" value="{{$data->haber}}" class="form-control">
                         </div>
 
                         <div class="form-group">
-                            <label>Duyuru</label>
-                            <input type="text" name="duyuru"  value="{{$data->duyuru}}" class="form-control">
+                            <label>Announcement</label>
+                            <input type="text" name="announcement"  value="{{$data->duyuru}}" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Image</label>
-                            <input type="file" name="image" value="{{$data->image}}" class="form-control">
+                            <input type="file" name="image"  class="form-control">
                             @if ($data->image)
                                 <img src="{{ Storage::url($data->image)}}" height="100" alt="">
                             @endif
@@ -101,7 +101,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" value="Update hotel" class="btn btn-primary">
+                            <input type="submit" value="Update content" class="btn btn-primary">
 
                         </div>
                     </form>

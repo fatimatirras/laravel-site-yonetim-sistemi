@@ -26,7 +26,7 @@
                 <li><a href="{{ route('admin_login') }}"><img src="{{asset('assets/admin/images')}}/login.png" height="23">  Giriş Sayfası </a></li>
                 <li><a href="{{ route('admin_home') }}" > <img src="{{asset('assets/admin/images')}}/home.png" height="23">  Home </a></li>
                 <li><a href="{{ route('admin_menu') }}" > <img src="{{asset('assets/admin/images')}}/menu.png" height="23">  Menu      </a></li>
-                <li><a href="{{ route('admin_hotels')}}" ><img src="{{asset('assets/admin/images')}}/hotel.png" height="23"> Hotel  </a></li>
+                <li><a href="{{ route('admin_contents')}}" ><img src="{{asset('assets/admin/images')}}/content.png" height="23"> Contents  </a></li>
 
                 <li><a href="{{ route('admin_setting')}}" ><img src="{{asset('assets/admin/images')}}/setting.png" height="23"> Settings  </a></li>
 

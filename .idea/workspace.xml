@@ -20,8 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="setting site ayarları">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_154657_create_hotels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_163346_create_contents_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_03_155508_hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_164814_content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_175810_create_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_175810_create_images_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/hotel_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +270,8 @@
       <workItem from="1609845920601" duration="26074000" />
       <workItem from="1609932512566" duration="25214000" />
       <workItem from="1610025969842" duration="25927000" />
-      <workItem from="1610104065004" duration="15608000" />
+      <workItem from="1610104065004" duration="26741000" />
+      <workItem from="1610188186138" duration="21224000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -467,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610130130028</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="setting site ayarları">
+      <created>1610131872717</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610131872717</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,22 +526,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="setting site ayarları" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1610119979865">
+    <state x="586" y="198" key="#Inspections" timestamp="1610204031175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610119979865" />
-    <state x="983" y="220" width="816" height="774" key="#Intentions" timestamp="1609946070942">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610204031175" />
+    <state x="983" y="0" width="816" height="1040" key="#Intentions" timestamp="1610204231195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="983" y="220" width="816" height="774" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1609946070942" />
+    <state x="983" y="0" width="816" height="1040" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1610204231195" />
     <state x="711" y="344" key="#Notifications" timestamp="1609072196026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1609072196026" />
-    <state x="334" y="312" key="#Web_Browsers" timestamp="1609011980722">
+    <state x="334" y="312" key="#Web_Browsers" timestamp="1610143036625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="312" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1609011980722" />
+    <state x="334" y="312" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1610143036625" />
     <state x="719" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609689566100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -527,10 +550,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609680468002" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609940379568">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610212000606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609940379568" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610212000606" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -579,10 +602,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610130150037">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610131888231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610130150037" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610131888231" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609094486017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -603,10 +626,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="340" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609675294243" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609680860964">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610147294593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609680860964" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610147294593" />
     <state x="721" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1609678050667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title','Add Hotel')
+@section('title','Add Content')
 
 @section('javascript')
 
@@ -14,14 +14,14 @@
         <div class="container-fluid">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin_home') }}">Home</a></li>
-                <li class="breadcrumb-item active">Add Hotel      </li>
+                <li class="breadcrumb-item active">Add Content      </li>
             </ul>
         </div>
     </div>
 
     <div class="card-body">
 
-                    <form action="{{ route('admin_hotel_store')}}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('admin_content_store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label>Menu</label>
@@ -68,13 +68,13 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Haber</label>
-                            <input type="text" name="haber"  class="form-control">
+                            <label>News</label>
+                            <input type="text" name="news"  class="form-control">
                         </div>
 
                         <div class="form-group">
-                            <label>Duyuru</label>
-                            <input type="text" name="duyuru"  class="form-control">
+                            <label>Announcement</label>
+                            <input type="text" name="announcement"  class="form-control">
                         </div>
 
                         <div class="form-group">
@@ -94,7 +94,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" value="Add hotel" class="btn btn-primary">
+                            <input type="submit" value="Add content" class="btn btn-primary">
 
                         </div>
                     </form>
