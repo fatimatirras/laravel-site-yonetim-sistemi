@@ -49,9 +49,9 @@ class ContentController extends Controller
         $data->description = $request->input('description');
         $data->menu_id = $request->input('menu_id');
         $data->detail = $request->input('detail');
-        $data->menu = $request->input('menu');
-        $data->haber = $request->input('news');
-        $data->duyuru = $request->input('announcement');
+        $data->apartments = $request->input('apartments');
+        $data->news = $request->input('news');
+        $data->announcement = $request->input('announcement');
         $data->user_id = Auth::id();
         $data->status = $request->input('status');
         $data->image = Storage::putFile('images', $request->file('image'));
@@ -90,7 +90,7 @@ class ContentController extends Controller
      * @param  \App\Models\Content  $content
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Content $content)
+    public function update(Request $request, Content $content,$id)
     {
         $data = content::find($id);
         $data->menu_id = $request->input('menu_id');
@@ -99,9 +99,9 @@ class ContentController extends Controller
         $data->description = $request->input('description');
         $data->menu_id = $request->input('menu_id');
         $data->detail = $request->input('detail');
-        $data->menu = $request->input('menu');
-        $data->haber = $request->input('news');
-        $data->duyuru = $request->input('announcement');
+        $data->apartments = $request->input('apartments');
+        $data->news = $request->input('news');
+        $data->announcement = $request->input('announcement');
         $data->user_id = Auth::id();
         $data->status = $request->input('status');
         if ($request->file('image')!=null)
@@ -116,7 +116,7 @@ class ContentController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  \App\Models\Content  $content
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy(Content $content)
     {

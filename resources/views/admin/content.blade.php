@@ -29,7 +29,7 @@
                             <th>Id</th>
                             <th>Menu</th>
                             <th>Title</th>
-                            <th>Menu_id</th>
+                            <th>Apartments</th>
                             <th>News</th>
                             <th>Announcement</th>
                             <th>Image</th>
@@ -44,11 +44,11 @@
 
                             <tr>
                                 <td>{{ $rs->id }}</td>
-                                <td>{{ $rs->menu_id}}</td>
+                                <td>{{ $rs->menu->title}}</td>
                                 <td>{{ $rs->title }}</td>
-                                <td>{{ $rs->menu }}</td>
-                                <td>{{ $rs->haber }}</td>
-                                <td>{{ $rs->duyuru }}</td>
+                                <td>{{ $rs->apartments }}</td>
+                                <td>{{ $rs->news }}</td>
+                                <td>{{ $rs->announcement }}</td>
                                <td>
                                    @if ($rs->image)
                                        <img src="{{ Storage::url($rs->image)}}" height="30" alt="">

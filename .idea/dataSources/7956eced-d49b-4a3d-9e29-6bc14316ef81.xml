@@ -1124,7 +1124,7 @@
       <Position>7</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="355" parent="337" name="menu">
+    <column id="355" parent="337" name="apartments">
       <Position>8</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>

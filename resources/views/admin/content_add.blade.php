@@ -63,8 +63,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Menu</label>
-                            <input type="text" name="menu"  class="form-control">
+                            <label>Apartments</label>
+                            <input type="text" name="apartments"  class="form-control">
                         </div>
 
                         <div class="form-group">

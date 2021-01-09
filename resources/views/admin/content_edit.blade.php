@@ -67,18 +67,18 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Menu</label>
-                            <input type="text" name="menu" value="{{$data->menu}}" class="form-control">
+                            <label>Apartments</label>
+                            <input type="text" name="apartments" value="{{$data->apartments}}" class="form-control">
                         </div>
 
                         <div class="form-group">
                             <label>News</label>
-                            <input type="text" name="news" value="{{$data->haber}}" class="form-control">
+                            <input type="text" name="news" value="{{$data->news}}" class="form-control">
                         </div>
 
                         <div class="form-group">
                             <label>Announcement</label>
-                            <input type="text" name="announcement"  value="{{$data->duyuru}}" class="form-control">
+                            <input type="text" name="announcement"  value="{{$data->announcement}}" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Image</label>

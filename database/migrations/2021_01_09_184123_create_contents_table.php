@@ -21,7 +21,7 @@ class CreateContentsTable extends Migration
             $table->string('image',75)->nullable();
             $table->integer('menu_id')->nullable();
             $table->text('detail')->nullable();
-            $table->string('menu')->nullable();
+            $table->string('apartments')->nullable();
             $table->string('news')->nullable();
             $table->string('announcement')->nullable();
             $table->integer('user_id')->nullable();
