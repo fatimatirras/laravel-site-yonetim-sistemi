@@ -14,16 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::redirect('anasayfa','/home')->name('anasayfa');
 
-Route::get('/', function () {
-    return view('home.index');
-});
+
+Route::get('/',[HomeController::class,'index'])->name('homepage');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/references', [HomeController::class, 'references'])->name('references');
+Route::get('/faq', [HomeController::class, 'fag'])->name('faq');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+Route::get('/home/signup',[HomeController::class, 'signup'])->name('home_signup');
+
+
 
 Route::get('/test/{id}/{name}',[HomeController::class, 'test'])->whereNumber('id')->whereAlpha('name')->name('test');
 
@@ -41,7 +47,7 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
 
 
-#content
+    #content
     Route::prefix('content')->group(function (){
         //route assigned name "admin.users"
         Route::get('/',[\App\Http\Controllers\Admin\ContentController::class,'index'])->name('admin_contents');
@@ -73,6 +79,11 @@ Route::get('/admin/giris',[HomeController::class, 'giris'])->name('admin_giris')
 Route::get('/admin/login',[HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
 Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');
+Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
+
+
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

@@ -27,7 +27,7 @@
                             <label>Menu</label>
                             <select  class="form-control" name="menu_id">
                                 @foreach( $datalist as $rs)
-                                <option value="{{ $rs->id }}">{{ $rs->title }}</option>
+                                <option value="{{ $rs->id }}">{{ \App\Http\Controllers\Admin\MenuController::getParentsTree($rs, $rs->title) }}</option>
                                 @endforeach
                             </select>
                         </div>

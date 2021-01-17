@@ -6,7 +6,7 @@
     <title> @yield('title')</title>
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
-    <meta name="author" content="@yield('author')">
+    <meta name="author" content="apartman siteler">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="{{ asset('assets') }}/vendor/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
@@ -49,7 +49,7 @@
 
 
     @section('content')
-        içerik alan
+
     @show
     @include('home._footer')
 </div>
@@ -67,13 +67,6 @@
 <script src="{{ asset('assets') }}/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
 <script src="{{ asset('assets') }}/vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
 <script src="{{ asset('assets') }}/js/front.js"></script>
-
-
-
-
-
-
-
 
 @yield('footerjs')
 

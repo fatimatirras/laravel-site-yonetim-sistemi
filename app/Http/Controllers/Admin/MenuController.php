@@ -9,6 +9,19 @@ use Illuminate\Support\Facades\DB;
 
 class MenuController extends Controller
 {
+
+   public static function getParentsTree($menu, $title)
+    {
+        if ($menu->parent_id == 0)
+        {
+            return $title;
+        }
+
+        $parent = Menu::find($menu->parent_id);
+        $title = $parent->title . '=>' . $title;
+
+        return MenuController::getParentsTree($parent, $title);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -17,9 +30,10 @@ class MenuController extends Controller
     public function index()
     {
         //$datalist = DB::select('select * from menus ');
-        $datalist = DB::table('menus')->get();
+        //$datalist = DB::table('menus')->get();
         // print_r($datalist);
         // exit();
+        $datalist = Menu::with('children')->get();
         return view('admin.menu', ['datalist' =>  $datalist]);
     }
 
@@ -31,7 +45,7 @@ class MenuController extends Controller
      */
     public function add()
     {
-        $datalist = DB::table('menus')->get()->where('parent_id',0);
+       $datalist = Menu::with('children')->get();
         //print_r($datalist);
         //exit();
         return view('admin.menu_add', ['datalist' =>  $datalist]);
@@ -87,7 +101,8 @@ class MenuController extends Controller
     public function edit(Menu $menu,$id)
     {
         $data = menu::find($id);
-        $datalist = DB::table('menus')->get()->where('parent_id',0);
+       // $datalist = DB::table('menus')->get()->where('parent_id',0);
+        $datalist = Menu::with('children')->get();
         return view('admin.menu_edit',['data'=> $data, 'datalist' =>  $datalist]);
     }
 

@@ -27,7 +27,7 @@
         {
             content: " ";
             position: relative;
-            bottom: -60px;
+            bottom: -70px;
             left: -10%;
             border: 18px solid transparent;
             border-top-color: forestgreen ;
@@ -62,9 +62,7 @@
             </ul>
         </div>
     </div>
-    <div>
-        <h3>Edit Setting</h3>
-    </div>
+
     <div>
         <div  >
             <form action="{{ route('admin_setting_update')}}" method="post" enctype="multipart/form-data">

@@ -1,3 +1,7 @@
+@php
+    $setting=\App\Http\Controllers\HomeController::getsetting();
+@endphp
+
 <!-- Top bar-->
 <div class="top-bar">
     <div class="container">
@@ -11,12 +15,29 @@
                         <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-                    <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="customer-register.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+
+                    <div class="info">
+                        @auth
+                            <a  class="d-block">{{ Auth::user()->name }}</a>
+                        @endauth
+                            @guest
+
+
+
+                    <div class="login"><a href="{{route('admin_login')}}" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="{{route('home_signup')}}" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                            @endguest
+                    </div>
+
                     <ul class="social-custom list-inline">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+
+                        @if ($setting->facebook != null)<li class="list-inline-item"><a href="{{$setting->facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>@endif
+                        @if ($setting->twitter != null)<li class="list-inline-item"><a href="{{$setting->twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>@endif
+                        @if ($setting->instagram != null)<li class="list-inline-item"><a href="{{$setting->instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>@endif
+
+                            <!--
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            -->
                     </ul>
                 </div>
             </div>

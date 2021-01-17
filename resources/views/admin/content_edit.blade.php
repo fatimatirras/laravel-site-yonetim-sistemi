@@ -27,12 +27,14 @@
                     <form action="{{ route('admin_content_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label>Parent</label>
+                            <label>Menu</label>
 
                             <select  class="form-control" name="menu_id">
 
                                 @foreach( $datalist as $rs)
-                                    <option value="{{ $rs->id }}"  @if ($rs->id == $data->menu_id) selected="selected" @endif >{{ $rs->title }}</option>
+                                    <option value="{{ $rs->id }}"  @if ($rs->id == $data->menu_id) selected="selected" @endif >
+                                        {{ \App\Http\Controllers\Admin\MenuController::getParentsTree($rs, $rs->title) }}
+                                    </option>
                                 @endforeach
                             </select>
 

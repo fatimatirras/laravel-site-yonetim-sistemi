@@ -19,9 +19,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="hataları giderme">
-      <change beforePath="$PROJECT_DIR$/app/Models/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Content.php" afterDir="false" />
+    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="menu content One to Many ilişkisi">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/signup.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/signupp.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/fixed-background-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/fixed-background-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/photogrid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photogrid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-code.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-customize-less.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-customize-less.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-customize.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-customize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/template-homepage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-homepage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/template-mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-mac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +285,16 @@
       <workItem from="1609932512566" duration="25214000" />
       <workItem from="1610025969842" duration="25927000" />
       <workItem from="1610104065004" duration="26741000" />
-      <workItem from="1610188186138" duration="27287000" />
+      <workItem from="1610188186138" duration="33612000" />
+      <workItem from="1610275919200" duration="32187000" />
+      <workItem from="1610377286551" duration="15000" />
+      <workItem from="1610377347362" duration="2000" />
+      <workItem from="1610394356283" duration="490000" />
+      <workItem from="1610462284991" duration="764000" />
+      <workItem from="1610653594664" duration="5109000" />
+      <workItem from="1610706069202" duration="34337000" />
+      <workItem from="1610801069531" duration="9000" />
+      <workItem from="1610806121746" duration="14927000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -489,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610219731354</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="menu content One to Many İlişkisi">
+      <created>1610219834169</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610219834169</updated>
+    </task>
+    <task id="LOCAL-00035" summary="menu content One to Many ilişkisi">
+      <created>1610219961589</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610219961589</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,17 +576,19 @@
     <MESSAGE value="setting site ayarları" />
     <MESSAGE value="DÜZELTME" />
     <MESSAGE value="hataları giderme" />
-    <option name="LAST_COMMIT_MESSAGE" value="hataları giderme" />
+    <MESSAGE value="menu content One to Many İlişkisi" />
+    <MESSAGE value="menu content One to Many ilişkisi" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu content One to Many ilişkisi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1610215104862">
+    <state x="586" y="198" key="#Inspections" timestamp="1610289375456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610215104862" />
-    <state x="983" y="0" width="816" height="1040" key="#Intentions" timestamp="1610204231195">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610289375456" />
+    <state x="983" y="0" width="816" height="1040" key="#Intentions" timestamp="1610709104904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="983" y="0" width="816" height="1040" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1610204231195" />
+    <state x="983" y="0" width="816" height="1040" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1610709104904" />
     <state x="711" y="344" key="#Notifications" timestamp="1609072196026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -587,10 +641,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609005263775" />
-    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1609690091417">
+    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1610807663990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609690091417" />
+    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610807663990" />
     <state x="676" y="240" key="RollbackChangesDialog" timestamp="1609680893184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -603,10 +657,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610219739949">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610219974081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610219739949" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610219974081" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609094486017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -651,9 +705,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608836690573" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609957415589">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610728618889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609957415589" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610728618889" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home/index.blade.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

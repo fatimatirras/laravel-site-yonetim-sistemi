@@ -14,7 +14,7 @@
     </div>
 
 
-    <div class="col-lg-10">
+    <div class="col-lg-12">
         <div>
             <h4>Menus</h4>
         </div>
@@ -43,7 +43,7 @@
 
                             <tr>
                                 <td>{{ $rs->id }}</td>
-                                <td>{{ $rs->parent_id }}</td>
+                                <td>{{ \App\Http\Controllers\Admin\MenuController::getParentsTree($rs, $rs->title)  }}</td>
                                 <td>{{ $rs->title }}</td>
                                 <td>{{ $rs->status }}</td>
                                 <td><a href="{{route('admin_menu_edit',['id' => $rs->id])}}"> <img src="{{asset('assets/admin/images')}}/edit.png" height="26"></a></td>
