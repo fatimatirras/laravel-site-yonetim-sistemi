@@ -1280,7 +1280,7 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="389" parent="340" name="hotel_id">
+    <column id="389" parent="340" name="content_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
     </column>

@@ -25,7 +25,8 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('/references', [HomeController::class, 'references'])->name('references');
 Route::get('/faq', [HomeController::class, 'fag'])->name('faq');
-Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/contact', [HomeController::class, 'contact'])->name('home_contact');
+Route::get('/home/signin', [HomeController::class, 'signin'])->name('home_signin');
 
 Route::get('/home/signup',[HomeController::class, 'signup'])->name('home_signup');
 

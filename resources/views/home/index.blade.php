@@ -12,6 +12,8 @@
 
 @section('content')
 
+    @include('home._slider')
+
     <section class="bar background-white">
         <div class="container text-center">
             <div class="row">

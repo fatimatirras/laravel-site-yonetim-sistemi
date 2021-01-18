@@ -19,36 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="menu content One to Many ilişkisi">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/menutree.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/signup.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/signupp.blade.php" afterDir="false" />
+    <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment=" Menu Tree Sub Menu Gösterimi">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/signin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ImageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/fixed-background-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/fixed-background-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/photogrid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photogrid.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-code.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-customize-less.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-customize-less.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/template-easy-customize.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-easy-customize.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/template-homepage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-homepage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/template-mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/template-mac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/signup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/signup.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/signupp.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -294,7 +280,12 @@
       <workItem from="1610653594664" duration="5109000" />
       <workItem from="1610706069202" duration="34337000" />
       <workItem from="1610801069531" duration="9000" />
-      <workItem from="1610806121746" duration="14927000" />
+      <workItem from="1610806121746" duration="15838000" />
+      <workItem from="1610920635056" duration="11554000" />
+      <workItem from="1610973600336" duration="172000" />
+      <workItem from="1610973942816" duration="1577000" />
+      <workItem from="1610992761141" duration="596000" />
+      <workItem from="1611004887464" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -541,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610219961589</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=" Menu Tree Sub Menu Gösterimi">
+      <created>1610842074784</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610842074784</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +576,8 @@
     <MESSAGE value="hataları giderme" />
     <MESSAGE value="menu content One to Many İlişkisi" />
     <MESSAGE value="menu content One to Many ilişkisi" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu content One to Many ilişkisi" />
+    <MESSAGE value=" Menu Tree Sub Menu Gösterimi" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Menu Tree Sub Menu Gösterimi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1610289375456">
@@ -641,10 +640,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609005263775" />
-    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1610807663990">
+    <state x="1043" y="443" key="NewPhpFileDialog" timestamp="1610931315571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610807663990" />
+    <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610931315571" />
     <state x="676" y="240" key="RollbackChangesDialog" timestamp="1609680893184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -657,10 +656,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608046790541" />
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610219974081">
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2" timestamp="1610842096504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610219974081" />
+    <state x="181" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610842096504" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609094486017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -685,10 +684,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="340" width="408" height="351" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610217516114" />
-    <state x="803" y="293" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610217505973">
+    <state x="803" y="293" width="493" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1611005186729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="293" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610217505973" />
+    <state x="803" y="293" width="493" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611005186729" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610147294593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -709,16 +708,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610728618889" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/home/index.blade.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

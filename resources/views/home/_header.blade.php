@@ -1,4 +1,6 @@
 <!-- Navbar Start-->
+
+
 <header class="nav-holder make-sticky">
     <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
         <div class="container"><a href="{{route('home')}}" class="navbar-brand home"><img src="{{ asset('assets') }}/img/logo.png" alt="Universal logo" class="d-none d-md-inline-block"><img src="{{ asset('assets') }}/img/logo-small.png" alt="Universal logo" class="d-inline-block d-md-none"><span class="sr-only">Universal - go to homepage</span></a>
@@ -137,12 +139,8 @@
                     </li>
                     <!-- ========== FULL WIDTH MEGAMENU END ==================-->
                     <!-- ========== Contact dropdown ==================-->
-                    <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Contact <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="contact.html" class="nav-link">Contact option 1</a></li>
-                            <li class="dropdown-item"><a href="contact2.html" class="nav-link">Contact option 2</a></li>
-                            <li class="dropdown-item"><a href="contact3.html" class="nav-link">Contact option 3</a></li>
-                        </ul>
+                    <li class="nav-item dropdown"><a href="{{route('home_contact')}}"  >Contact <b class="caret"></b></a>
+
                     </li>
                     <!-- ========== Contact dropdown end ==================-->
                 </ul>

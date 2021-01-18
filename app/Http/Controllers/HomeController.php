@@ -28,6 +28,11 @@ class HomeController extends Controller
         return view('home.index',['setting' =>$setting]);
     }
 
+    public function signin()
+    {
+        return view('home.signin');
+    }
+
     public function login()
     {
         return view('admin.login');
@@ -48,7 +53,7 @@ class HomeController extends Controller
     }
     public function contact()
     {
-        return view('home.aboutus');
+        return view('home.contact');
     }
 
     public function signup()

@@ -16,7 +16,7 @@
                         <input id="password" type="password" placeholder="password" class="form-control">
                     </div>
                     <p class="text-center">
-                        <a href="{{route('home')}}"><button class="btn btn-template-outlined"> <i class="fa fa-sign-in"></i>Login</button></a>
+                        <a href="{{route('home')}}" class="btn btn-template-outlined"> <i class="fa fa-sign-in"></i>Login</a></a>
                     </p>
                 </form>
                 <p class="text-center text-muted">Not registered yet?</p>

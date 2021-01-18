@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Hotel;
+use App\Models\Content;
 use App\Models\Image;
 
 use Illuminate\Http\Request;
@@ -25,13 +25,13 @@ class ImageController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @param $hotel_id
+     * @param $content_id
      * @return \Illuminate\Http\Response
      */
-    public function create($hotel_id)
+    public function create($content_id)
     {
-      $data = Hotel::find($hotel_id);
-      $images = DB::table('images')->where('hotel_id','=', $hotel_id)->get();
+      $data = Content::find($content_id);
+      $images = DB::table('images')->where('content_id','=', $content_id)->get();
       return view('admin.image_add',['data' => $data,'images' => $images]);
     }
 
@@ -39,17 +39,17 @@ class ImageController extends Controller
      * Store a newly created resource in storage.
      *
      * @param \Illuminate\Http\Request $request
-     * @param $hotel_id
+     * @param $content_id
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request,$hotel_id)
+    public function store(Request $request,$content_id)
     {
         $data = new Image;
-        $data->hotel_id = $hotel_id;
+        $data->content_id = $content_id;
         $data->title = $request->input('title');
         $data->image = Storage::putFile('images', $request->file('image'));
         $data->save();
-        return redirect()->route('admin_image_add',['hotel_id'=>$hotel_id]);
+        return redirect()->route('admin_image_add',['content_id'=>$content_id]);
     }
 
     /**
@@ -92,10 +92,10 @@ class ImageController extends Controller
      * @param \App\Models\Image $image
      * @return void
      */
-    public function destroy(Image $image,$id,$hotel_id)
+    public function destroy(Image $image,$id,$content_id)
     {
         $data = Image::find($id);
         $data->delete();
-        return redirect()->route('admin_image_add',['hotel_id' =>$hotel_id]);
+        return redirect()->route('admin_image_add',['content_id' =>$content_id]);
     }
 }

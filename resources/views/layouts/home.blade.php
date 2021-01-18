@@ -41,15 +41,13 @@
 
 </head>
 <body>
+
 <div id="all">
     @include('home._topbar')
     @include('home._login')
     @include('home._header')
-    @include('home._slider')
-
 
     @section('content')
-
     @show
     @include('home._footer')
 </div>
