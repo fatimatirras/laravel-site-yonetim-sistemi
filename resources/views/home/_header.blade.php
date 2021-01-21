@@ -33,7 +33,6 @@
                                         <h5>About</h5>
                                         <ul class="list-unstyled mb-3">
                                             <li class="nav-item"><a href="{{route('aboutus')}}" class="nav-link">About us</a></li>
-                                            <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
                                             <li class="nav-item"><a href="team-member.html" class="nav-link">Team member</a></li>
                                             <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
                                         </ul>
@@ -87,29 +86,13 @@
                                         <h5>User pages</h5>
                                         <ul class="list-unstyled mb-3">
                                             <li class="nav-item"><a href="customer-register.html" class="nav-link">Register / login</a></li>
+                                            <li class="nav-item"><a href="{{route('myprofile')}}" class="nav-link">My Account</a></li>
                                             <li class="nav-item"><a href="customer-orders.html" class="nav-link">Orders history</a></li>
                                             <li class="nav-item"><a href="customer-order.html" class="nav-link">Order history detail</a></li>
                                             <li class="nav-item"><a href="customer-wishlist.html" class="nav-link">Wishlist</a></li>
-                                            <li class="nav-item"><a href="customer-account.html" class="nav-link">Customer account / change password</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-6 col-lg-3">
-                                        <h5>Shop</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="shop-category.html" class="nav-link">Category - sidebar right</a></li>
-                                            <li class="nav-item"><a href="shop-category-left.html" class="nav-link">Category - sidebar left</a></li>
-                                            <li class="nav-item"><a href="shop-category-full.html" class="nav-link">Category - full width</a></li>
-                                            <li class="nav-item"><a href="shop-detail.html" class="nav-link">Product detail</a></li>
-                                        </ul>
-                                        <h5>Shop - order process</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="shop-basket.html" class="nav-link">Shopping cart</a></li>
-                                            <li class="nav-item"><a href="shop-checkout1.html" class="nav-link">Checkout - step 1</a></li>
-                                            <li class="nav-item"><a href="shop-checkout2.html" class="nav-link">Checkout - step 2</a></li>
-                                            <li class="nav-item"><a href="shop-checkout3.html" class="nav-link">Checkout - step 3</a></li>
-                                            <li class="nav-item"><a href="shop-checkout4.html" class="nav-link">Checkout - step 4</a></li>
-                                        </ul>
-                                    </div>
+
                                     <div class="col-md-6 col-lg-3">
                                         <h5>Contact</h5>
                                         <ul class="list-unstyled mb-3">

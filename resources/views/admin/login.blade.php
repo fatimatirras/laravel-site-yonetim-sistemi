@@ -47,10 +47,10 @@
                         <input id="password" type="password" name="password" required data-msg="Please enter your password" class="input-material">
                         <label for="password" class="label-material">Password</label>
                     </div>
-                    <div class="form-group text-center"><a id="login" href="index.html" class="btn btn-primary"><button type="submit" >Login</button></a>
+                    <div class="form-group text-center"><a id="login" href="{{route('admin_home')}}" class="btn btn-primary"><button type="submit" >Login</button></a>
                         <!-- This should be submit button but I replaced it with <a> for demo purposes-->
                     </div>
-                </form><a href="#" class="forgot-pass">Forgot Password?</a><small>Do not have an account? </small><a href="register.html" class="signup">Signup</a>
+                </form><a href="#" class="forgot-pass">Forgot Password?</a><small>Do not have an account? </small><a href="/register" class="signup">Signup</a>
             </div>
             <div class="copyrights text-center">
                 <p>Design by <a href="https://bootstrapious.com/p/bootstrap-4-dashboard" class="external">Bootstrapious</a></p>

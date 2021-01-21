@@ -33,6 +33,12 @@ class HomeController extends Controller
         return view('home.signin');
     }
 
+    public function myaccount()
+    {
+        return view('home.myaccount');
+    }
+
+
     public function login()
     {
         return view('admin.login');
@@ -56,10 +62,6 @@ class HomeController extends Controller
         return view('home.contact');
     }
 
-    public function signup()
-    {
-        return view('home.signup');
-    }
 
     public function logincheck(Request $request)
     {

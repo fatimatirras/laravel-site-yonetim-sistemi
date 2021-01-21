@@ -1,7 +1,10 @@
+
 @php
     $setting=\App\Http\Controllers\HomeController::getsetting();
 @endphp
-@extends('layouts.Signin')
+@extends('layouts.home')
+
+@section('title','Sign In')
 
 @section('content')
 
@@ -9,96 +12,46 @@
         <div class="container">
             <div class="row d-flex align-items-center flex-wrap">
                 <div class="col-md-7">
-                    <h1 class="h2">My Orders</h1>
+                    <h1 class="h2">New Account / Sign In</h1>
                 </div>
                 <div class="col-md-5">
                     <ul class="breadcrumb d-flex justify-content-end">
                         <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                        <li class="breadcrumb-item active">My Orders</li>
+                        <li class="breadcrumb-item active">  Sign In</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
     <div id="content">
         <div class="container">
-            <div class="row bar mb-0">
-                <div id="customer-orders" class="col-md-9">
-                    <p class="text-muted lead">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
-                    <div class="box mt-0 mb-lg-0">
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                <tr>
-                                    <th>Order</th>
-                                    <th>Date</th>
-                                    <th>Total</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th># 1735</th>
-                                    <td>22/06/2013</td>
-                                    <td>$ 150.00</td>
-                                    <td><span class="badge badge-info">Being prepared</span></td>
-                                    <td><a href="customer-order.html" class="btn btn-template-outlined btn-sm">View</a></td>
-                                </tr>
-                                <tr>
-                                    <th># 1735</th>
-                                    <td>22/06/2013</td>
-                                    <td>$ 150.00</td>
-                                    <td><span class="badge badge-info">Being prepared</span></td>
-                                    <td><a href="customer-order.html" class="btn btn-template-outlined btn-sm">View</a></td>
-                                </tr>
-                                <tr>
-                                    <th># 1735</th>
-                                    <td>22/06/2013</td>
-                                    <td>$ 150.00</td>
-                                    <td><span class="badge badge-success">Received</span></td>
-                                    <td><a href="customer-order.html" class="btn btn-template-outlined btn-sm">View</a></td>
-                                </tr>
-                                <tr>
-                                    <th># 1735</th>
-                                    <td>22/06/2013</td>
-                                    <td>$ 150.00</td>
-                                    <td><span class="badge badge-danger">Cancelled</span></td>
-                                    <td><a href="customer-order.html" class="btn btn-template-outlined btn-sm">View</a></td>
-                                </tr>
-                                <tr>
-                                    <th># 1735</th>
-                                    <td>22/06/2013</td>
-                                    <td>$ 150.00</td>
-                                    <td><span class="badge badge-warning">On hold</span></td>
-                                    <td><a href="customer-order.html" class="btn btn-template-outlined btn-sm">View</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-4 mt-md-0">
-                    <!-- CUSTOMER MENU -->
-                    <div class="panel panel-default sidebar-menu">
-                        <div class="panel-heading">
-                            <h3 class="h4 panel-title">Customer section</h3>
-                        </div>
-                        <div class="panel-body">
-                            <ul class="nav nav-pills flex-column text-sm">
-                                <li class="nav-item"><a href="customer-orders.html" class="nav-link active"><i class="fa fa-list"></i> My orders</a></li>
-                                <li class="nav-item"><a href="customer-wishlist.html" class="nav-link"><i class="fa fa-heart"></i> My wishlist</a></li>
-                                <li class="nav-item"><a href="customer-account.html" class="nav-link"><i class="fa fa-user"></i> My account</a></li>
-                                <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa fa-sign-out"></i> Logout</a></li>
-                            </ul>
-                        </div>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="box">
+                        <h2 class="text-uppercase">Login</h2>
+                        <p class="lead">Already our customer?</p>
+
+                        <form action="{{ route('home_logincheck') }}" method="post">
+                            @csrf
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input id="password" name="password" type="password" class="form-control">
+                            </div>
+                            <div class="text-center">
+
+                                <a href="{{route('myprofile')}}" type="submit"  class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Log in</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 
 

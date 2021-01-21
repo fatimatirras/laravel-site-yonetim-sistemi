@@ -22,7 +22,7 @@
                         @endauth
                          @guest
 
-                    <div class="login"><a href="{{route('home_signup')}}"  class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="{{route('home_signup')}}" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                    <div class="login"><a href="{{route('home_signin')}}"  class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="/register" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
                             @endguest
                     </div>
 
