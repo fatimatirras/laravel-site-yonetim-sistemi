@@ -11,36 +11,16 @@
 
                     </li>
                      @include('home._menu')
-                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Portfolio <b class="caret"></b></a>
+                    <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">KURUMSAL <b class="caret"></b></a>
                         <ul class="dropdown-menu megamenu">
                             <li>
                                 <div class="row">
-                                    <div class="col-lg-6"><img src="{{ asset('assets') }}/img/template-homepage.png" alt="" class="img-fluid d-none d-lg-block"></div>
+                                    <div class="col-lg-2"><img src="{{ asset('assets') }}/img/template-homepage.png" alt="" class="img-fluid d-none d-lg-block"></div>
                                     <div class="col-lg-3 col-md-6">
-                                        <h5>Portfolio</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="portfolio-2.html" class="nav-link">2 columns</a></li>
-                                            <li class="nav-item"><a href="portfolio-no-space-2.html" class="nav-link">2 columns with negative space</a></li>
-                                            <li class="nav-item"><a href="portfolio-3.html" class="nav-link">3 columns</a></li>
-                                            <li class="nav-item"><a href="portfolio-no-space-3.html" class="nav-link">3 columns with negative space</a></li>
-                                            <li class="nav-item"><a href="portfolio-4.html" class="nav-link">4 columns</a></li>
-                                            <li class="nav-item"><a href="portfolio-no-space-4.html" class="nav-link">4 columns with negative space</a></li>
-                                            <li class="nav-item"><a href="portfolio-detail.html" class="nav-link">Portfolio - detail</a></li>
-                                            <li class="nav-item"><a href="portfolio-detail-2.html" class="nav-link">Portfolio - detail 2</a></li>
-                                        </ul>
+                                        <a href="{{route('aboutus')}}" class="nav-link"><h5>About Us</h5></a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
-                                        <h5>About</h5>
-                                        <ul class="list-unstyled mb-3">
-                                            <li class="nav-item"><a href="{{route('aboutus')}}" class="nav-link">About us</a></li>
-                                            <li class="nav-item"><a href="team-member.html" class="nav-link">Team member</a></li>
-                                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                                        </ul>
-                                        <h5>Marketing</h5>
-                                        <ul class="list-unstyled">
-                                            <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
-                                        </ul>
-                                    </div>
+                                        <a href="{{route('references')}}" class="nav-link"><h5>References</h5></a>
                                 </div>
                             </li>
                         </ul>

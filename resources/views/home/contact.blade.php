@@ -2,10 +2,11 @@
 
     $setting=\App\Http\Controllers\HomeController::getsetting();
 @endphp
-
 @extends('layouts.home')
+@section('title','Contact '. $setting->title)
+@section('description') {{ $setting->description}} @endsection
 
-@section('title','Contact')
+@section('keywords',$setting->keywords)
 
 @section('content')
 
@@ -35,6 +36,8 @@
                         <h2>We are here to help you</h2>
                     </div>
                     <p class="lead">Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
+                    <div class="container">{!! $setting->contact !!}</div>
+
                     <p class="text-sm">Please feel free to contact us, our customer service center is working for you 24/7.</p>
                 </div>
             </div>
@@ -45,7 +48,7 @@
                     <div class="box-simple">
                         <div class="icon-outlined"><i class="fa fa-map-marker"></i></div>
                         <h3 class="h4">Address</h3>
-                        <p>{{$setting->company}}<br>                                        {{$setting->address}}<br>    </p>
+                        <p>{{$setting->company}}<br>                                        {{$setting->address}}<br>  </p>
                     </div>
                 </div>
                 <div class="col-md-4">
