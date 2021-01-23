@@ -102,7 +102,7 @@
                     </li>
                     <!-- ========== FULL WIDTH MEGAMENU END ==================-->
                     <!-- ========== Contact dropdown ==================-->
-                    <li class="nav-item dropdown"><a href="{{route('home_contact')}}"  >Contact <b class="caret"></b></a>
+                    <li class="nav-item dropdown"><a href="{{route('contact')}}"  >Contact <b class="caret"></b></a>
 
                     </li>
                     <!-- ========== Contact dropdown end ==================-->

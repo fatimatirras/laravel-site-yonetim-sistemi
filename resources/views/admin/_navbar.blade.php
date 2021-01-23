@@ -28,7 +28,8 @@
                 <li><a href="{{ route('admin_menu') }}" > <img src="{{asset('assets/admin/images')}}/menu.png" height="23">  Menu      </a></li>
                 <li><a href="{{ route('admin_contents')}}" ><img src="{{asset('assets/admin/images')}}/content.png" height="23"> Contents  </a></li>
 
-                <li><a href="{{ route('admin_setting')}}" ><img src="{{asset('assets/admin/images')}}/setting.png" height="23"> Settings  </a></li>
+                <li><a href="{{ route('admin_setting')}}" ><img src="{{asset('assets/admin/images')}}/setting.png" height="25"> Settings  </a></li>
+                <li><a href="{{ route('admin_message')}}" ><img src="{{asset('assets/admin/images')}}/message.png" height="25"> Messages  </a></li>
 
                 <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts             </a></li>
