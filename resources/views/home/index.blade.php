@@ -17,6 +17,7 @@
     <section class="bar background-white">
         <div class="container text-center">
             <div class="row">
+
                 <div class="col-lg-4 col-md-6">
                     <div class="box-simple">
                         <div class="icon-outlined"><i class="fa fa-desktop"></i></div>
@@ -24,6 +25,7 @@
                         <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="box-simple">
                         <div class="icon-outlined"><i class="fa fa-print"></i></div>
@@ -31,6 +33,7 @@
                         <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice. Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6">
                     <div class="box-simple">
                         <div class="icon-outlined"><i class="fa fa-globe"></i></div>
@@ -39,6 +42,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="box-simple">

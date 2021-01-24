@@ -30,6 +30,8 @@ Route::get('/home/signin', [HomeController::class, 'signin'])->name('home_signin
 Route::get('/home/myaccount', [HomeController::class, 'myaccount'])->name('home_myaccount');
 Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
 
+Route::get('/content/{id}', [HomeController::class, 'content'])->name('content');
+
 
 
 
