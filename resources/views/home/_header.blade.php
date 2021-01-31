@@ -7,7 +7,12 @@
             <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
             <div id="navigation" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item dropdown active"><a href="{{route('home')}}"  >Home <b class="caret"></b></a>
+                    @auth
+                    <li class="nav-item dropdown active"><a href="#"  >AİDAT ÖDE<b class="caret"></b></a>
+
+                    </li>
+                    @endauth
+                    <li class="nav-item dropdown"><a href="{{route('home')}}"  >Home <b class="caret"></b></a>
 
                     </li>
                      @include('home._menu')
