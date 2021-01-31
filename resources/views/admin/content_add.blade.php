@@ -65,6 +65,11 @@
                             <label>Image</label>
                             <input type="file" name="image"  class="form-control">
                         </div>
+                        <div class="form-group">
+                            <label>Slug: </label>
+                            <input id="slug" type="text" name="slug" placeholder="Slug"/>
+                        </div>
+
                         <div class="form-group row">
                             <label class="col-sm-2 form-control-label">Status</label>
                             <div class="col-sm-12 mb-5">

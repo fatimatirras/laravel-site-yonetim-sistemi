@@ -14,9 +14,7 @@
                                 <h2>{{$rs->title}}</h2>
                                 <ul class="list-unstyled">
                                     <li>{{$rs->type}}</li>
-                                    <li>4 Header variations</li>
-                                    <li>Google maps, Forms, Megamenu, CSS3 Animations and much more</li>
-                                    <li>+ 11 extra pages showing template features</li>
+                                    <li>{{ \App\Http\Controllers\Admin\MenuController::getParentsTree($rs->menu, $rs->menu->title)}}</li>
                                     <a href="{{route('content',['id' => $rs->id,'slug' => $rs->title])}}" style="color: #2d3748" class="btn btn-primary">Detaya gir</a>
                                 </ul>
                             </div>

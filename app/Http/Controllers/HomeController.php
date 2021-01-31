@@ -8,6 +8,7 @@ use App\Models\Menu;
 use App\Models\Message;
 use App\Models\Review;
 use App\Models\Setting;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use PHPUnit\Framework\Constraint\IsEmpty;
@@ -29,7 +30,7 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Content::select('id','title','image','type')->limit(4)->get();
+        $slider = Content::select('id','title','image','type','menu_id')->limit(4)->get();
         $last=Content::select('id','title','image','menu_id','type')->limit(6)->orderByDesc('id')->get();
 
         $data= [
@@ -45,9 +46,9 @@ class HomeController extends Controller
         $setting=Setting::first();
         $data=Content::find($id);
         $picked=Content::select('id','title','image','slug')->limit(3)->inRandomOrder()->get();
-        //$reviews=Review::where('content_id',$id)->get();
+        $reviews=Review::where('content_id',$id)->get();
         $datalist=Image::where('content_id',$id)->get();
-        return view('home.content_detail',['setting'=>$setting,'picked'=>$picked,'data'=>$data,'datalist'=>$datalist]);
+        return view('home.content_detail',['setting'=>$setting,'picked'=>$picked,'data'=>$data,'datalist'=>$datalist,'reviews'=>$reviews]);
 
     }
     public function menucontents($id,$slug){
@@ -106,6 +107,24 @@ class HomeController extends Controller
         $data->save();
 
         return redirect()->route('contact')->with('success','Mesajınız başarılı bir şekilde kaydedilmiştir!');
+    }
+
+    public function sendreview(Request $request,$id)
+    {
+        $data = new Review;
+
+        $data->user_id = Auth::id();
+        $content = Content::find($id);
+        $data->content_id=$id;
+        $data->subject = $request->input('subject');
+        $data->review = $request->input('review');
+        $data->IP = $_SERVER['REMOTE_ADDR'];
+
+
+
+        $data->save();
+
+        return redirect()->route('content',['id'=>$content->id,'slug'=>$content->slug])->with('success','Your message has been saved!');
     }
 
 

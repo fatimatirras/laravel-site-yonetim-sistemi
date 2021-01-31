@@ -87,6 +87,11 @@
                                 <img src="{{ Storage::url($data->image)}}" height="100" alt="">
                             @endif
                         </div>
+                        <div class="form-group">
+                            <label>Slug</label>
+                            <input id="slug" value="{{$data->slug}}" type="text" name="slug" placeholder="Slug"/>
+                        </div>
+
 
                         <div class="form-group row">
                             <label class="col-sm-2 form-control-label">Status</label>

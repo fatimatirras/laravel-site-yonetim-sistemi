@@ -38,60 +38,42 @@
                         <p class="text-sm">{!! $data->detail !!}</p>
                     </div>
                     <div id="comments">
-                        <h4 class="text-uppercase">2 comments</h4>
+                        <h4 class="text-uppercase">Yorumlar</h4>
+                        @foreach($reviews as $rs)
                         <div class="row comment">
-                            <div class="col-sm-3 col-md-2 text-center-xs">
-                                <p><img src="img/blog-avatar2.jpg" alt="" class="img-fluid rounded-circle"></p>
-                            </div>
+
                             <div class="col-sm-9 col-md-10">
-                                <h5 class="text-uppercase">Julie Alma</h5>
-                                <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2011 at 12:00 am</p>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></p>
+                                <h5 class="text-uppercase">{{$rs->user->name}}</h5>
+                                <p class="posted"><i class="fa fa-clock-o"></i> {{$rs->created_at}}</p>
+                                <p class="posted"> {{$rs->subject}}</p>
+                                <p>{{$rs->review}}</p>
                             </div>
                         </div>
-                        <div class="row comment last">
-                            <div class="col-sm-3 col-md-2 text-center-xs">
-                                <p><img src="img/blog-avatar.jpg" alt="" class="img-fluid rounded-circle"></p>
-                            </div>
-                            <div class="col-sm-9 col-md-10">
-                                <h5 class="text-uppercase">Louise Armero</h5>
-                                <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2012 at 12:00 am</p>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></p>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                     <div id="comment-form">
                         <h4 class="text-uppercase">Leave a comment</h4>
-                        <form>
+                        <form action="{{route('sendreview',['id'=>$data->id,'slug'=>$data->slug])}}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label for="name">Name <span class="required text-primary">*</span></label>
-                                        <input id="name" type="text" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="email">Email <span class="required text-primary">*</span></label>
-                                        <input id="email" type="text" class="form-control">
+                                        <label for="subject">Subject <span class="required text-primary">*</span></label>
+                                        <input id="subject" name="subject" type="text" class="form-control">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <label for="comment">Comment <span class="required text-primary">*</span></label>
-                                        <textarea id="comment" rows="4" class="form-control"></textarea>
+                                        <label for="comment">Review <span class="required text-primary">*</span></label>
+                                        <textarea id="review" name="review" rows="4" class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 text-right">
-                                    <button class="btn btn-template-outlined"><i class="fa fa-comment-o"></i> Post comment</button>
+                                    <button class="btn btn-template-outlined"><i class="fa fa-comment-o"></i> Yorum Yap</button>
                                 </div>
                             </div>
                         </form>

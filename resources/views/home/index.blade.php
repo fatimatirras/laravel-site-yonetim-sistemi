@@ -19,7 +19,7 @@
             <div class="heading text-center">
                 <h2>En Son Eklenenler</h2>
             </div>
-            <p class="lead">We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.</p>
+
             <!-- Carousel Start-->
             <ul class="owl-carousel testimonials list-unstyled equal-height">
                 @foreach($last as $rs)
