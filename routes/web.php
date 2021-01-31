@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\FaqController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,7 +25,7 @@ Route::get('/',[HomeController::class,'index'])->name('homepage');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('/references', [HomeController::class, 'references'])->name('references');
-Route::get('/faq', [HomeController::class, 'fag'])->name('faq');
+Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/home/signin', [HomeController::class, 'signin'])->name('home_signin');
 Route::get('/home/myaccount', [HomeController::class, 'myaccount'])->name('home_myaccount');
@@ -98,6 +99,16 @@ Route::middleware('auth')->prefix('admin')->group(function (){
         Route::post('update/{id}', [\App\Http\Controllers\Admin\ReviewController::class, 'update'])->name('admin_review_update');
         Route::get('delete/{id}', [\App\Http\Controllers\Admin\ReviewController::class, 'destroy'])->name('admin_review_delete');
         Route::get('show/{id}', [\App\Http\Controllers\Admin\ReviewController::class, 'show'])->name('admin_review_show');
+
+    });
+    Route::prefix('faq')->group(function () {
+        Route::get('/', [FaqController::class, 'index'])->name('admin_faq');
+        Route::get('create', [FaqController::class, 'create'])->name('admin_faq_add');
+        Route::post('store', [FaqController::class, 'store'])->name('admin_faq_store');
+        Route::get('edit/{id}', [FaqController::class, 'edit'])->name('admin_faq_edit');
+        Route::post('update/{id}', [FaqController::class, 'update'])->name('admin_faq_update');
+        Route::get('delete/{id}', [FaqController::class, 'destroy'])->name('admin_faq_delete');
+        Route::get('show', [FaqController::class, 'show'])->name('admin_faq_show');
 
     });
 

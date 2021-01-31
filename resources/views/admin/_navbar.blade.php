@@ -32,17 +32,10 @@
                 <li><a href="{{ route('admin_message')}}" ><img src="{{asset('assets/admin/images')}}/message.png" height="25"> Messages  </a></li>
 
                 <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
-                <li><a href="{{ route('admin_review')}}"> <i class="fa fa-bar-chart"></i>Yorumlar            </a></li>
+                <li><a href="{{ route('admin_review')}}"> <i class="icon-mail"></i>Yorumlar            </a></li>
                 <li><a href="tables.html"> <i class="icon-grid"></i>Tables                    </a></li>
-                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Örnek açılır menu </a>
-                    <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                        <li><a href="#">Sayfa</a></li>
-                        <li><a href="#">Sayfa</a></li>
-                        <li><a href="#">Sayfa</a></li>
-                    </ul>
-                </li>
-                <li> <a href="#"> <i class="icon-mail"></i>Mesajlar
-                        <div class="badge badge-warning">6 yeni</div></a></li>
+
+                <li> <a href="{{ route('admin_faq')}}"> <i class="fa fa-bar-chart"></i>FAQ</a></li>
             </ul>
         </div>
 

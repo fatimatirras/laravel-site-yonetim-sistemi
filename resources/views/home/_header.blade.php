@@ -26,7 +26,10 @@
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <a href="{{route('references')}}" class="nav-link"><h5>References</h5></a>
-                                </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <a href="{{route('faq')}}" class="nav-link"><h5>FAQ</h5></a>
+                                    </div>
                             </li>
                         </ul>
                     </li>
