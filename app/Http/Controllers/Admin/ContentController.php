@@ -94,7 +94,8 @@ class ContentController extends Controller
      */
     public function update(Request $request, Content $content,$id)
     {
-        $data = content::find($id);
+
+        $data = Content::find($id);
         $data->menu_id = $request->input('menu_id');
         $data->title = $request->input('title');
         $data->keywords = $request->input('keywords');
@@ -120,7 +121,7 @@ class ContentController extends Controller
      * @param  \App\Models\Content  $content
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy(Content $content)
+    public function destroy(Content $content, $id)
     {
         DB::table('contents')->where('id','=',$id)->delete();
         return redirect()->route('admin_contents');

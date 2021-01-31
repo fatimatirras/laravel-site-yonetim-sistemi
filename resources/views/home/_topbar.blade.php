@@ -18,11 +18,11 @@
 
                     <div class="info">
                         @auth
-                            <a  class="d-block">{{ Auth::user()->name }}</a>
+                            <a href="{{route('userprofile')}}" class="d-block">{{ Auth::user()->name }}</a>
                         @endauth
                          @guest
 
-                    <div class="login"><a href="{{route('home_signin')}}"  class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="/register" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                    <div class="login"><a href="/login"  class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="/register" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
                             @endguest
                     </div>
 

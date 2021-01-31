@@ -8,24 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Menu extends Model
 {
     use HasFactory;
-
-
-
-
-    protected $appends = [
+    protected $appends=[
         'parent',
     ];
 
-    #one to many
-    public function contents()
+
+    public function parent()
     {
-        return $this->hasMany(Content::class);
+        return $this->belongsTo(Menu::class,'parent_id');
     }
 
-   public function parent()
-    {
-       return $this->belongsTo(Menu::class,'parent_id');
-    }
     public function children()
     {
         return $this->hasMany(Menu::class,'parent_id');

@@ -29,8 +29,8 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/home/signin', [HomeController::class, 'signin'])->name('home_signin');
 Route::get('/home/myaccount', [HomeController::class, 'myaccount'])->name('home_myaccount');
 Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendmessage');
-
-Route::get('/content/{id}', [HomeController::class, 'content'])->name('content');
+Route::get('/content/{id}/{slug}', [HomeController::class, 'content'])->name('content');
+Route::get('/menucontents/{id}/{slug}', [HomeController::class, 'menucontents'])->name('menucontents');
 
 
 
@@ -110,8 +110,6 @@ Route::get('/admin/giris',[HomeController::class, 'giris'])->name('admin_giris')
 Route::get('/admin/login',[HomeController::class, 'login'])->name('admin_login');
 Route::post('/admin/logincheck', [HomeController::class, 'logincheck'])->name('admin_logincheck');
 Route::get('/admin/logout', [HomeController::class, 'logout'])->name('admin_logout');
-Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
-Route::get('/login',[HomeController::class, 'login'])->name('login');
 Route::post('/logincheck', [HomeController::class, 'logincheck'])->name('logincheck');
 
 

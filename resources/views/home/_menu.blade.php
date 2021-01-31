@@ -11,6 +11,7 @@
                 @foreach($parentMenus as $rs)
                 <div class="col-lg-3 col-md-6">
                     <ul class="list-unstyled mb-3">
+
                         <li class="nav-item"><h5>{{$rs->title}}</h5></li>
                             @if(count($rs->children))
                                 @include('home.menutree',['children' => $rs->children])

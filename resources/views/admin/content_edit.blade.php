@@ -61,7 +61,7 @@
 
                         <div class="form-group">
                             <label>Detail</label>
-                            <textarea name="detail"></textarea>
+                            <textarea id="detail" name="detail">{{$data->detail}}</textarea>
                             <script>
                                 CKEDITOR.replace( 'detail' );
                             </script>
@@ -69,19 +69,17 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Apartments</label>
-                            <input type="text" name="apartments" value="{{$data->apartments}}" class="form-control">
+                            <label for="type"><h4>Type:</h4></label>
+
+                            <select name="type" id="type" style="width: 600px">
+                                <option selected="selected">{{$data->type}}</option>
+                                <option value="menu">Menu</option>
+                                <option value="news">News</option>
+                                <option value="announcement">Announcement</option>
+
+                            </select>
                         </div>
 
-                        <div class="form-group">
-                            <label>News</label>
-                            <input type="text" name="news" value="{{$data->news}}" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Announcement</label>
-                            <input type="text" name="announcement"  value="{{$data->announcement}}" class="form-control">
-                        </div>
                         <div class="form-group">
                             <label>Image</label>
                             <input type="file" name="image"  class="form-control">

@@ -10,17 +10,20 @@ use Illuminate\Support\Facades\DB;
 class MenuController extends Controller
 {
 
-   public static function getParentsTree($menu, $title)
+    protected $appends=[
+        'getParentsTree'
+    ];
+
+    public static function getParentsTree($menu,$title)
     {
-        if ($menu->parent_id == 0)
+        if($menu->parent_id==0)
         {
             return $title;
         }
+        $parent=Menu::find($menu->parent_id);
+        $title=$parent->title.' > '.$title;
 
-        $parent = Menu::find($menu->parent_id);
-        $title = $parent->title . '=>' . $title;
-
-        return MenuController::getParentsTree($parent, $title);
+        return MenuController::getParentsTree($parent,$title);
     }
     /**
      * Display a listing of the resource.

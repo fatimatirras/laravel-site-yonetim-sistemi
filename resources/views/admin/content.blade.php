@@ -29,9 +29,7 @@
                             <th>Id</th>
                             <th>Menu</th>
                             <th>Title</th>
-                            <th>Apartments</th>
-                            <th>News</th>
-                            <th>Announcement</th>
+                            <th>Type</th>
                             <th>Image</th>
                             <th>Image Gallery</th>
                             <th>Status</th>
@@ -46,9 +44,7 @@
                                 <td>{{ $rs->id }}</td>
                                 <td>{{ \App\Http\Controllers\Admin\MenuController::getParentsTree($rs->menu, $rs->menu->title)}}</td>
                                 <td>{{ $rs->title }}</td>
-                                <td>{{ $rs->apartments }}</td>
-                                <td>{{ $rs->news }}</td>
-                                <td>{{ $rs->announcement }}</td>
+                                <td>{{ $rs->type }}</td>
                                <td>
                                    @if ($rs->image)
                                        <img src="{{ Storage::url($rs->image)}}" height="30" alt="">

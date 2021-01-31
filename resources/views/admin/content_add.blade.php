@@ -51,17 +51,16 @@
                             </script>
                         </div>
                         <div class="form-group">
-                            <label>Apartments</label>
-                            <input type="text" name="apartments"  class="form-control">
+                            <label for="type">Type</label>
+
+                                <select name="type" id="type" style="width: 600px">
+                                    <option value="menu">Menu</option>
+                                    <option value="news">News</option>
+                                    <option value="announcement">Announcement</option>
+
+                                </select>
                         </div>
-                        <div class="form-group">
-                            <label>News</label>
-                            <input type="text" name="news"  class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label>Announcement</label>
-                            <input type="text" name="announcement"  class="form-control">
-                        </div>
+
                         <div class="form-group">
                             <label>Image</label>
                             <input type="file" name="image"  class="form-control">

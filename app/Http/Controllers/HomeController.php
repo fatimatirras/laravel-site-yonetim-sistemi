@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Content;
+use App\Models\Image;
 use App\Models\Menu;
 use App\Models\Message;
+use App\Models\Review;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -27,23 +29,35 @@ class HomeController extends Controller
     public function index()
     {
         $setting = Setting::first();
-        $slider = Content::select('id','title','image')->limit(4)->get();
+        $slider = Content::select('id','title','image','type')->limit(4)->get();
+        $last=Content::select('id','title','image','menu_id','type')->limit(6)->orderByDesc('id')->get();
 
         $data= [
             'setting' =>$setting,
             'slider' =>$slider,
+            'last' =>$last,
             'page'=>'home'
         ];
         return view('home.index',$data);
     }
 
-    public function content($id)
-    {
-        $data = Content::find($id);
-        print_r($data);
-        exit();
-    }
+    public function content($id,$slug){
+        $setting=Setting::first();
+        $data=Content::find($id);
+        $picked=Content::select('id','title','image','slug')->limit(3)->inRandomOrder()->get();
+        //$reviews=Review::where('content_id',$id)->get();
+        $datalist=Image::where('content_id',$id)->get();
+        return view('home.content_detail',['setting'=>$setting,'picked'=>$picked,'data'=>$data,'datalist'=>$datalist,'reviews'=>$reviews]);
 
+    }
+    public function menucontents($id,$slug){
+        $setting=Setting::first();
+        $datalist=Content::where('menu_id',$id)->get();
+        $data=Menu::find($id);
+
+        return view('home.menu_contents',['data'=>$data,'datalist'=>$datalist,'setting'=>$setting]);
+
+    }
     public function signin()
     {
         return view('home.signin');

@@ -7,7 +7,7 @@
             </ul>
             <hr>
         @else
-            <li class="nav-item"><a href="template-header-default.html" class="nav-link">{{$submenu->title}}</a></li>
+            <li class="nav-item"><a href="{{route('menucontents',['id'=>$rs->id,'slug'=>$rs->title])}}" class="nav-link">{{$submenu->title}}</a></li>
         @endif
     </ul>
 @endforeach
