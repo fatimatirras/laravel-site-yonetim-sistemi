@@ -55,8 +55,8 @@
 
                                 <select name="type" id="type" style="width: 600px">
                                     <option value="menu">Menu</option>
-                                    <option value="news">News</option>
-                                    <option value="announcement">Announcement</option>
+                                    <option value="haber">Haber</option>
+                                    <option value="duyuru">Duyuru</option>
 
                                 </select>
                         </div>

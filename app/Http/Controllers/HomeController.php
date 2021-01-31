@@ -47,7 +47,7 @@ class HomeController extends Controller
         $picked=Content::select('id','title','image','slug')->limit(3)->inRandomOrder()->get();
         //$reviews=Review::where('content_id',$id)->get();
         $datalist=Image::where('content_id',$id)->get();
-        return view('home.content_detail',['setting'=>$setting,'picked'=>$picked,'data'=>$data,'datalist'=>$datalist,'reviews'=>$reviews]);
+        return view('home.content_detail',['setting'=>$setting,'picked'=>$picked,'data'=>$data,'datalist'=>$datalist]);
 
     }
     public function menucontents($id,$slug){

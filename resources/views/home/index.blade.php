@@ -26,7 +26,7 @@
                 <li class="item">
                     <div class="testimonial d-flex flex-wrap">
                         <div class="text">
-                            <h1><a href="{{route('content',['id' => $rs->id,'slug' => $rs->slug])}}">{{$rs->title}}</a></h1>
+                            <h1><a href="{{route('content',['id' => $rs->id,'slug' => $rs->title])}}">{{$rs->title}}</a></h1>
                         </div>
                         <div class="bottom d-flex align-items-center justify-content-between align-self-end">
                             <div class="icon"><i class="fa fa-quote-left"></i></div>
