@@ -1,3 +1,7 @@
+@php
+    $setting=\App\Http\Controllers\HomeController::getsetting();
+@endphp
+
 <!-- FOOTER -->
 <footer class="main-footer">
     <div class="container">

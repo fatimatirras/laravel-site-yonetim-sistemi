@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\FaqController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -112,6 +113,16 @@ Route::middleware('auth')->prefix('admin')->group(function (){
 
     });
 
+    Route::prefix('payment')->group(function () {
+        Route::get('/', [\App\Http\Controllers\Admin\PaymentController::class, 'index'])->name('admin_payments');
+        Route::post('create', [\App\Http\Controllers\Admin\PaymentController::class, 'create'])->name('admin_payment_add');
+        Route::post('store', [\App\Http\Controllers\Admin\PaymentController::class, 'store'])->name('admin_payment_store');
+        Route::get('edit/{id}', [\App\Http\Controllers\Admin\PaymentController::class, 'edit'])->name('admin_payment_edit');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\PaymentController::class, 'update'])->name('admin_payment_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\PaymentController::class, 'destroy'])->name('admin_payment_delete');
+        Route::get('show/{id}', [\App\Http\Controllers\Admin\PaymentController::class, 'show'])->name('admin_payment_show');
+    });
+
 });
 
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
@@ -129,6 +140,16 @@ Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
         Route::get('delete/{id}',[\App\Http\Controllers\ReviewController::class,'destroy'])->name('user_review_delete');
         Route::get('show/{id}',[\App\Http\Controllers\ReviewController::class,'show'])->name('user_review_show');
 
+    });
+
+    Route::prefix('payment')->group(function (){
+        Route::get('/',[PaymentController::class,'index'])->name('user_payments');
+        Route::post('create',[PaymentController::class,'create'])->name('user_payment_add');
+        Route::post('store',[PaymentController::class,'store'])->name('user_payment_store');
+        Route::get('edit/{id}',[PaymentController::class,'edit'])->name('user_payment_edit');
+        Route::post('update/{id}',[PaymentController::class,'update'])->name('user_payment_update');
+        Route::get('delete/{id}',[PaymentController::class,'destroy'])->name('user_payment_delete');
+        Route::get('show/{id}',[PaymentController::class,'show'])->name('user_payment_show');
     });
 
 });

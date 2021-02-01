@@ -31,7 +31,7 @@
                 <li><a href="{{ route('admin_setting')}}" ><img src="{{asset('assets/admin/images')}}/setting.png" height="25"> Settings  </a></li>
                 <li><a href="{{ route('admin_message')}}" ><img src="{{asset('assets/admin/images')}}/message.png" height="25"> Messages  </a></li>
 
-                <li><a href="forms.html"> <i class="icon-form"></i>Ödemeler                </a></li>
+                <li><a href="{{ route('admin_payments')}}"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="{{ route('admin_review')}}"> <i class="icon-mail"></i>Yorumlar            </a></li>
                 <li><a href="tables.html"> <i class="icon-grid"></i>Tables                    </a></li>
 
