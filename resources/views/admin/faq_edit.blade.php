@@ -22,7 +22,7 @@
     <div class="card-body">
 
         <div>
-            <p>Edit Content</p>
+            <p>Edit FAQ</p>
         </div>
         <form action="{{ route('admin_faq_update',['id'=>$data->id])}}" method="post" enctype="multipart/form-data">
             @csrf

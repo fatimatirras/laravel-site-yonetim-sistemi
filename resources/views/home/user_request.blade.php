@@ -37,8 +37,6 @@
                                     <thead>
 
                                     <tr>
-                                        <th>Id</th>
-                                        <th>User</th>
                                         <th>Subject</th>
                                         <th>Request</th>
                                         <th>Status</th>
@@ -48,12 +46,7 @@
                                     <tbody>
                                     @foreach($datalist as $rs)
                                         <tr>
-                                            <td>
-                                                {{$rs->id}}
-                                            </td>
-                                            <td>
-                                                {{$rs->user->name}}
-                                            </td>
+
                                             <td>
                                                 {{$rs->subject}}
                                             </td>

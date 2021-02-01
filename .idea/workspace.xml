@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="dimanik slider">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/requestmng.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/requestmng_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/request.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_roles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/RequestMng.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/RequestMng.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/faq_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/faq_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_request.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +296,7 @@
       <workItem from="1611842010861" duration="4000" />
       <workItem from="1612002834551" duration="5479000" />
       <workItem from="1612108012258" duration="12053000" />
-      <workItem from="1612169622200" duration="3290000" />
+      <workItem from="1612169622200" duration="4974000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -716,10 +716,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609005263775" />
-    <state x="742" y="310" key="NewPhpFileDialog" timestamp="1612172535522">
+    <state x="742" y="310" key="NewPhpFileDialog" timestamp="1612173554670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="742" y="310" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612172535522" />
+    <state x="742" y="310" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612173554670" />
     <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611356143599" />
     <state x="676" y="240" key="RollbackChangesDialog" timestamp="1609680893184">
       <screen x="0" y="0" width="1920" height="1040" />
