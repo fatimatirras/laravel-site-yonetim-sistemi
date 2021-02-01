@@ -34,6 +34,8 @@ Route::post('/sendmessage', [HomeController::class, 'sendmessage'])->name('sendm
 Route::get('/content/{id}/{slug}', [HomeController::class, 'content'])->name('content');
 Route::get('/menucontents/{id}/{slug}', [HomeController::class, 'menucontents'])->name('menucontents');
 Route::post('/sendreview/{id}/{slug}', [HomeController::class, 'sendreview'])->name('sendreview');
+Route::post('/sendrequest', [HomeController::class, 'sendrequest'])->name('sendrequest');
+Route::get('/request', [HomeController::class, 'request'])->name('request');
 
 
 
@@ -123,6 +125,15 @@ Route::middleware('auth')->prefix('admin')->group(function (){
         Route::get('show/{id}', [\App\Http\Controllers\Admin\PaymentController::class, 'show'])->name('admin_payment_show');
     });
 
+    Route::prefix('requestmng')->group(function () {
+
+        Route::get('/', [\App\Http\Controllers\Admin\RequestMngController::class, 'index'])->name('admin_requestmng');
+        Route::post('update/{id}', [\App\Http\Controllers\Admin\RequestMngController::class, 'update'])->name('admin_requestmng_update');
+        Route::get('delete/{id}', [\App\Http\Controllers\Admin\RequestMngController::class, 'destroy'])->name('admin_requestmng_delete');
+        Route::get('show/{id}', [\App\Http\Controllers\Admin\RequestMngController::class, 'show'])->name('admin_requestmng_show');
+
+    });
+
 });
 
 Route::middleware('auth')->prefix('myaccount')->namespace('myaccount')->group(function (){
@@ -150,6 +161,12 @@ Route::middleware('auth')->prefix('user')->namespace('user')->group(function (){
         Route::post('update/{id}',[PaymentController::class,'update'])->name('user_payment_update');
         Route::get('delete/{id}',[PaymentController::class,'destroy'])->name('user_payment_delete');
         Route::get('show/{id}',[PaymentController::class,'show'])->name('user_payment_show');
+    });
+    Route::prefix('request')->group(function (){
+
+        Route::get('/',[\App\Http\Controllers\RequestMngController::class,'index'])->name('user_request');
+
+
     });
 
 });

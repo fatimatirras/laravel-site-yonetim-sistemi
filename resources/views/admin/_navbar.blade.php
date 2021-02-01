@@ -33,7 +33,7 @@
 
                 <li><a href="{{ route('admin_payments')}}"> <i class="icon-form"></i>Ödemeler                </a></li>
                 <li><a href="{{ route('admin_review')}}"> <i class="icon-mail"></i>Yorumlar            </a></li>
-                <li><a href="tables.html"> <i class="icon-grid"></i>Tables                    </a></li>
+                <li><a href="{{ route('admin_requestmng')}}"> <i class="icon-grid"></i>Talepler                 </a></li>
 
                 <li> <a href="{{ route('admin_faq')}}"> <i class="fa fa-bar-chart"></i>FAQ</a></li>
             </ul>

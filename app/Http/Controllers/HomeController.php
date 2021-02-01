@@ -7,6 +7,7 @@ use App\Models\Faq;
 use App\Models\Image;
 use App\Models\Menu;
 use App\Models\Message;
+use App\Models\RequestMng;
 use App\Models\Review;
 use App\Models\Setting;
 use App\Models\User;
@@ -96,6 +97,22 @@ class HomeController extends Controller
     {
         $setting = Setting::first();
         return view('home.contact',['setting' =>$setting]);
+    }
+    public function request(){
+        $setting=Setting::first();
+        return view('home.request',['setting'=>$setting,'page'=>'home']);
+    }
+    public function sendrequest(Request $request)
+    {
+        $data = new RequestMng;
+
+        $data->user_id = Auth::id();
+        $data->subject = $request->input('subject');
+        $data->request = $request->input('request');
+
+        $data->save();
+
+        return redirect()->route('request')->with('success','Your message has been sent!');
     }
 
     public function sendmessage(Request $request)

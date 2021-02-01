@@ -20,17 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="dimanik slider">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/payment_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/payments.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_payment.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_payment_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/requestmng.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/requestmng_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/request.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/RequestMng.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/RequestMng.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +296,7 @@
       <workItem from="1611842010861" duration="4000" />
       <workItem from="1612002834551" duration="5479000" />
       <workItem from="1612108012258" duration="12053000" />
-      <workItem from="1612169622200" duration="2064000" />
+      <workItem from="1612169622200" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -677,10 +674,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611230191455" />
-    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612170088264">
+    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612172492104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612170088264" />
+    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612172492104" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611362539164" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -719,10 +716,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609005263775" />
-    <state x="742" y="310" key="NewPhpFileDialog" timestamp="1612171373613">
+    <state x="742" y="310" key="NewPhpFileDialog" timestamp="1612172535522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="742" y="310" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612171373613" />
+    <state x="742" y="310" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612172535522" />
     <state x="1043" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611356143599" />
     <state x="676" y="240" key="RollbackChangesDialog" timestamp="1609680893184">
       <screen x="0" y="0" width="1920" height="1040" />
