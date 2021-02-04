@@ -95,9 +95,15 @@
                             <ul class="nav nav-pills flex-column text-sm">
                                 <li class="nav-item"><a href="{{route('user_review')}}" class="nav-link active"><i class="fa fa-list"></i> My Reviews</a></li>
                                 <li class="nav-item"><a href="{{route('myprofile')}}" class="nav-link"><i class="fa fa-user"></i> My account</a></li>
-                                <li class="nav-item"><a href="customer-wishlist.html" class="nav-link"><i class="fa fa-heart"></i> My wishlist</a></li>
-                                <li class="nav-item"><a href="{{route('home')}}" class="nav-link"><i class="fa fa-sign-out"></i> Logout</a></li>
-                            </ul>
+                                <li class="nav-item"><a href="{{route('user_payments')}}" class="nav-link"><i class="fa fa-heart"></i> My Payments</a></li>
+                                <li class="nav-item"><a href="{{route('user_request')}}" class="nav-link"><i class="fa fa-heart"></i> My Request</a></li>
+                                @php
+                                    $userRoles=Auth::User()->roles->pluck('name');
+                                @endphp
+                                @if($userRoles->contains('admin'))
+                                    <li class="nav-item"><a href="{{route('admin_home')}}" class="nav-link"  target="_blank"><i class="fa fa-heart"></i> ADMIN PANEL</a></li>
+                                @endif
+                                <li class="nav-item"><a href="{{route('logout')}}" class="nav-link"><i class="fa fa-sign-out"></i> Logout</a></li>         </ul>
                         </div>
                     </div>
                 </div>

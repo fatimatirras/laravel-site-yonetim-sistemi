@@ -20,14 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55ffbdf-0738-4918-83b0-d32448d3cd56" name="Default Changelist" comment="dimanik slider">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_roles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user_show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7956eced-d49b-4a3d-9e29-6bc14316ef81.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/faq_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/faq_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/faq.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/requestmng.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/requestmng.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/review.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/aboutus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/content_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/content_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/faq.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/menu_contents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/menu_contents.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/references.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/references.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/request.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_payment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_payment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_payment_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_payment_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/user_request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_request.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/user_reviews.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +235,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -296,7 +318,26 @@
       <workItem from="1611842010861" duration="4000" />
       <workItem from="1612002834551" duration="5479000" />
       <workItem from="1612108012258" duration="12053000" />
-      <workItem from="1612169622200" duration="4974000" />
+      <workItem from="1612169622200" duration="5944000" />
+      <workItem from="1612202303749" duration="13072000" />
+      <workItem from="1612276976892" duration="1673000" />
+      <workItem from="1612282979680" duration="940000" />
+      <workItem from="1612315668801" duration="2839000" />
+      <workItem from="1612355719535" duration="311000" />
+      <workItem from="1612363304411" duration="1352000" />
+      <workItem from="1612365533764" duration="95000" />
+      <workItem from="1612365846311" duration="54000" />
+      <workItem from="1612375609272" duration="103000" />
+      <workItem from="1612377254401" duration="24000" />
+      <workItem from="1612377831160" duration="25000" />
+      <workItem from="1612378277229" duration="46000" />
+      <workItem from="1612381712168" duration="27000" />
+      <workItem from="1612386608093" duration="39000" />
+      <workItem from="1612454607557" duration="674000" />
+      <workItem from="1612462559131" duration="308000" />
+      <workItem from="1612464470750" duration="10000" />
+      <workItem from="1612464624700" duration="20000" />
+      <workItem from="1612474635478" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="index Changed">
       <created>1607768857836</created>
@@ -603,7 +644,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -674,10 +715,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611230191455" />
-    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612172492104">
+    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612174636067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612172492104" />
+    <state x="491" y="193" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612174636067" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611362539164" />
     <state x="1154" y="452" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1608742403333">
       <screen x="0" y="0" width="1920" height="1040" />

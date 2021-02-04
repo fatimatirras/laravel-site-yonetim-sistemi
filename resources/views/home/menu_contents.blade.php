@@ -18,7 +18,7 @@
             <div class="heading text-center">
                 <h2>{{$data->title}}</h2>
             </div>
-
+            <br><br>
             <!-- Carousel Start-->
             <ul class="owl-carousel testimonials list-unstyled equal-height">
                 @foreach($datalist as $rs)
@@ -41,6 +41,7 @@
                     </li>
                 @endforeach
             </ul>
+            <br><br>
             <!-- Carousel End-->
         </div>
 

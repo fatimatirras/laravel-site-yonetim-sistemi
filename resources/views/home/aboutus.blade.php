@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row d-flex align-items-center flex-wrap">
                 <div class="col-md-7">
-                    <h1 class="h2">About Us</h1>
+                    <h2 class="h2">About Us</h2>
                 </div>
                 <div class="col-md-4">
                     <ul class="breadcrumb d-flex justify-content-end">

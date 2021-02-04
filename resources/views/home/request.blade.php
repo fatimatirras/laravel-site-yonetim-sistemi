@@ -26,8 +26,8 @@
     </div>
     <div class="container">
         <div class="row">
-            <div id="comment-form">
-                <h4 class="text-uppercase">Talepte Bulun</h4>
+            <div id="comment-form"><br><br>
+                <h6 class="text-uppercase">Talepte Bulun</h6>
                 @include('home.message')
                 <form action="{{route('sendrequest')}}" method="post">
                     @csrf
@@ -53,6 +53,7 @@
                         </div>
                     </div>
                 </form>
+                <br><br>
             </div>
         </div>
     </div>

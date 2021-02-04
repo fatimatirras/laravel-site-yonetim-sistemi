@@ -36,7 +36,7 @@
             <input type="submit" value="Add image" class="btn btn-primary">
         </div>
         <table class="table table-striped">
-            <thead>
+            <thead class=" text-primary">
             <tr>
                 <th>Id</th>
                 <th>Title</th>

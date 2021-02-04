@@ -36,7 +36,7 @@
             <div class="form-inner">
                 <div class="logo text-uppercase"><span>Bootstrap</span><strong class="text-primary">Dashboard</strong></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-
+@include('home.message')
                 <form action="{{ route('admin_logincheck') }}" method ="post">
                     @csrf
                     <div class="form-group-material">

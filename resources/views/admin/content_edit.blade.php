@@ -69,7 +69,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="type"><h4>Type:</h4></label>
+                            <label for="type">Type:</label>
 
                             <select name="type" id="type" style="width: 600px">
                                 <option selected="selected">{{$data->type}}</option>

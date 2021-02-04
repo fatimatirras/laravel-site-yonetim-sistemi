@@ -32,7 +32,7 @@
                     @if($data->profile_photo_path)
                         <img src="{{Storage::url($data->profile_photo_path)}}" height="200" style="border-radius: 10px">
                     @endif
-                </tr>
+                </tr><br>
 
                 <tr><button type="submit" style="color:#95999c; background-color: #4a5568; width: 150px;">Düzenle</button></tr>
             </table>

@@ -2,7 +2,6 @@
 
 @section('title', 'Aidat Öde')
 
-@include('home._header')
 
 @section('content')
     <div id="about" class="about top_layer">
@@ -11,8 +10,9 @@
                 <div class="col-md-6">
                     <form action="{{route('user_payment_store')}}" method="post">
                         @csrf
+                        <br>
                         <table>
-                            <tr><h2>BİLGİLERİM: </h2><br><br>
+                            <tr><h2>BİLGİLERİM: </h2></tr>
                             <tr><h4></h4> <input style="width: 400px" id="name" type="text" value="{{Auth::user()->name}}" name="name" placeholder="Name"/></tr>
                             <tr><h4></h4> <input style="width: 400px" id="email" type="email" value="{{Auth::user()->email}}" name="email" placeholder="Email"/></tr>
                             <tr><h4></h4><input style="width: 400px" id="address" type="text" value="{{Auth::user()->address}}" name="address" placeholder="Address"/></tr>
@@ -22,10 +22,12 @@
                             <tr><h4></h4><input style="width: 400px" id="year" type="number" name="year" placeholder="Year"/></tr>
                             <tr><h4></h4><input style="width: 400px" id="month" type="number" name="month" placeholder="Month"/></tr>
                         </table>
+                        <br>
+                        <br>
                 </div>
 
-                <div class="col-md-6">
-                    <h2>AİDAT TUTARI = {{$payment}}₺</h2><br><br>
+                <div class="col-md-6"><br><br>
+                    <h2>AİDAT TUTARI = {{$payment}}₺</h2><br>
                     <table>
                         <tr><input type="hidden" id="payment" name="payment" value="{{$payment}}"/></tr>
                         <tr><input style="width: 300px" id="cardname" type="text"  name="cardname" placeholder="Name Surname"/></tr><br><br>

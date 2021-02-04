@@ -14,7 +14,7 @@
                     <form action="{{route('user_payment_add')}}" method="post">
                         @csrf
                         <input type="hidden" name="payment" value="{{$payment}}">
-                        <button type="submit">AİDAT ÖDE</button>
+                        <button type="submit" class="btn btn-template-outlined">AİDAT ÖDE</button>
                     </form>
                 @endauth
             </div>

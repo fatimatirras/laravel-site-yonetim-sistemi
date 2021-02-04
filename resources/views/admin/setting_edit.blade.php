@@ -80,7 +80,7 @@
                     </div>
                 </nav>
                 <div class="tab-content py-3 px-3 px-sm-3" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
+                    <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab" >
                         <input type="hidden" id="id" name="id"  value="{{$data->id}}" class="form-control">
                         <div class="form-group">
                             <label><b>Title</b></label>

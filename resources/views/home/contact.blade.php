@@ -22,6 +22,7 @@
                 <ul class="breadcrumb d-flex justify-content-end">
                     <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
                     <li class="breadcrumb-item active">Contact</li>
+
                 </ul>
             </div>
         </div>
@@ -33,6 +34,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading">
+                        @include('home.message')
                         <h2>We are here to help you</h2>
                     </div>
                     <p class="lead">Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
