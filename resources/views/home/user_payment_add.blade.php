@@ -25,7 +25,9 @@
                         <br>
                         <br>
                 </div>
-
+                @php
+                    $payment=200;
+                @endphp
                 <div class="col-md-6"><br><br>
                     <h2>AİDAT TUTARI = {{$payment}}₺</h2><br>
                     <table>

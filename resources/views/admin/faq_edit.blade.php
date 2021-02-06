@@ -39,8 +39,8 @@
                 <input type="number" name="position" value="{{$data->position}}" class="form-control">
             </div>
             <div class="form-group">
-                <label>Detail</label>
-                <textarea id="answer" name="detail">{{$data->answer}}</textarea>
+                <label>Answer</label>
+                <textarea id="answer" name="answer">{{$data->answer}}</textarea>
                 <script>
                     CKEDITOR.replace( 'answer' );
                 </script>
